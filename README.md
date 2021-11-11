@@ -62,6 +62,7 @@ This node uses dynamic IP, so make sure to set a CronJob to resolve my ip period
 * Multiprotocol BGP: `enabled`
 * Extended next hop: `enabled`
 * **No Clearnet Endpoint! You have to provide your endpoint!**
+* Server status: https://42status.kskb.eu.org/
 
 URL                              | Location  | Accept New Peer
 ---------------------------------|-------|-------|
@@ -70,11 +71,11 @@ https://dn42ch.azurewebsites.net |Switzerland Zürich| O
 https://dn42ca.azurewebsites.net |Canada Toronto| O
 https://dn42au.azurewebsites.net |Australia Canberra| O
 https://dn42uae.azurewebsites.net|United Arab Emirates Dubai| O
-https://dn42sg.azurewebsites.net |Singapore| X
-https://dn42br.azurewebsites.net |Brazil São Paulo| X
-https://dn42uk.azurewebsites.net |United Kingdom London| X
-https://dn42usw.azurewebsites.net|United States Washington| X
-https://dn42hk.azurewebsites.net |Hong Kong| X
+https://dn42sg.azurewebsites.net |Singapore| X (Diagnosing low service-level)
+https://dn42br.azurewebsites.net |Brazil São Paulo| X (Diagnosing low service-level)
+https://dn42uk.azurewebsites.net |United Kingdom London| X (Diagnosing low service-level)
+https://dn42usw.azurewebsites.net|United States Washington| X (Diagnosing low service-level)
+https://dn42hk.azurewebsites.net |Hong Kong| X (Diagnosing low service-level)
 
 
 
