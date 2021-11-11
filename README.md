@@ -15,6 +15,7 @@ Contact me on telegram https://t.me/KusakabeSi if you’d like to peer with me.
 ### Peering Requirements
 To peer with me, you must meet the following requirements:
 
+1. Latency to my node <= 100 ms
 1. You must implement ROA checks
 2. Contact information in the registry must always be up to date and admins must respond when contacted
 
