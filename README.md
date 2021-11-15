@@ -75,6 +75,7 @@ This node uses dynamic IP, so make sure to set a crontob to resolve my ip period
 * Extended next hop: `supported`
 * **No Clearnet Endpoint! You have to provide your endpoint(IPv4 only)!**
 * **Host in very cheap, slow and unstable container**
+* Architecture: [RootlessRouter-UML](https://github.com/KusakabeSi/RootlessRouter-UML/)
 * Server status: https://42status.kskb.eu.org/
 
 URL                              | Location  | Accept New Peer
