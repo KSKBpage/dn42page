@@ -66,7 +66,12 @@ This two networks are fully isolated except they are peering with eBGP.
 This node uses dynamic IP, so make sure to set a crontob to resolve my ip periodically to prevent lost connection after my IP chabged.
 
 ### Route Propagation Graph
+<!---
 ![RPG1817](https://bgp-api.strexp.net/as_graph/AS4242421817)
+-->
+<a href="#">
+	<img src="as_graph_AS4242421817.svg" width="800" height="1000" alt="AS4242421817">
+</a>
 
 ## Kusakabe-Neo
 * ASN : `AS4201271111`
