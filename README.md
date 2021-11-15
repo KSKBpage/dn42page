@@ -76,6 +76,7 @@ This node uses dynamic IP, so make sure to set a crontob to resolve my ip period
 * Multiprotocol BGP: `supported`
 * Extended next hop: `supported`
 * **No Clearnet Endpoint! You have to provide your endpoint(IPv4 only)!**
+* ICMP packets are filtered out at public endpoint by the container provider, please use tcpping to the port 80 of following URLs to measure the latency
 * Architecture: [RootlessRouter-UML](https://github.com/KusakabeSi/RootlessRouter-UML/)
 * Server status: https://42status.kskb.eu.org/
 
