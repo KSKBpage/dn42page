@@ -66,7 +66,7 @@ This two networks are fully isolated except they are peering with eBGP.
 This node uses dynamic IP, so make sure to set a crontob to resolve my ip periodically to prevent lost connection after my IP chabged.
 
 ### Route Propagation Graph
-![RPG1817](https://bgp-api.strexp.net/as_graph/AS4242421817)
+[![RPG1817](https://bgp-api.strexp.net/as_graph/AS4242421817)](https://bgp42.strexp.net/asInfo/4242421817)
 
 ## Kusakabe-Neo
 * ASN : `AS4201271111`
@@ -91,7 +91,7 @@ https://dn42br.azurewebsites.net |Brazil São Paulo| X (very unstable)
 https://dn42sg.azurewebsites.net |Singapore| X (very unstable)
 
 ### Route Propagation Graph
-![RPG1111](https://bgp-api.strexp.net/as_graph/AS4201271111)
+[![RPG1111](https://bgp-api.strexp.net/as_graph/AS4201271111)](https://bgp42.strexp.net/asInfo/4201271111)
 
 <!---
 ### Hong Kong
