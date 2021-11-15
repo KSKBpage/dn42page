@@ -64,7 +64,7 @@ This node uses dynamic IP, so make sure to set a CronJob to resolve my ip period
 * Speed : `2mbps`
 * Multiprotocol BGP: `enabled`
 * Extended next hop: `enabled`
-* **No Clearnet Endpoint! You have to provide your endpoint!**
+* **No Clearnet Endpoint! You have to provide your endpoint(IPv4 only)!**
 * Server status: https://42status.kskb.eu.org/
 
 URL                              | Location  | Accept New Peer
