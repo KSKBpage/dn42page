@@ -43,11 +43,12 @@ This two networks are fully isolated except they are peering with eBGP.
 ## KSKB-AS
 
 * ASN : `AS4242421817`
+* Host in relative stable VPS/VM
 * Speed : 100mbps
 * Multiprotocol BGP: `supported`
 * Extended next hop: `supported`
 * Architecture: Normal linux distribution.
-* Host in relative stable VPS/VM
+
 
 ### Nodes
 #### Taiwan
@@ -70,11 +71,11 @@ This node uses dynamic IP, so make sure to set a crontob to resolve my ip period
 
 ## Kusakabe-Neo
 * ASN : `AS4201271111`
+* **Host in very cheap,low-end, slow and unstable container**
 * Speed : **2mbps**
 * Multiprotocol BGP: `supported`
 * Extended next hop: `supported`
 * **No Clearnet Endpoint! You have to provide your endpoint(IPv4 only)!**
-* **Host in very cheap, slow and unstable container**
 * Architecture: [RootlessRouter-UML](https://github.com/KusakabeSi/RootlessRouter-UML/)
 * Server status: https://42status.kskb.eu.org/
 
