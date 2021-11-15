@@ -41,8 +41,8 @@ This two networks are fully isolated except they are peering with eBGP.
 * Multiprotocol BGP: `enabled`
 * Extended next hop: `enabled`
 
-### Taiwan
-
+### Nodes
+#### Taiwan
 * DN42 IPv4 : `172.22.77.33`
 * DN42 IPv6 : `fd28:cb8f:4c92::33`
 * Link local IPv6 : `fe80::42:1817:1`
@@ -55,6 +55,9 @@ This two networks are fully isolated except they are peering with eBGP.
 * AutoPeer: https://tw42.kskb.eu.org
 
 This node uses dynamic IP, so make sure to set a CronJob to resolve my ip periodically to prevent lost connection after my IP chabged.
+
+### Route Propagation Graph
+![RPG1817](https://bgp-api.strexp.net/as_graph/AS4242421817)
 
 ## Kusakabe-Neo
 * ASN : `AS4201271111`
@@ -71,13 +74,14 @@ https://dn42ch.azurewebsites.net |Switzerland Zürich| O
 https://dn42ca.azurewebsites.net |Canada Toronto| O
 https://dn42au.azurewebsites.net |Australia Canberra| O
 https://dn42uae.azurewebsites.net|United Arab Emirates Dubai| O
-https://dn42sg.azurewebsites.net |Singapore| X (Diagnosing low service-level)
-https://dn42br.azurewebsites.net |Brazil São Paulo| X (Diagnosing low service-level)
-https://dn42uk.azurewebsites.net |United Kingdom London| X (Diagnosing low service-level)
-https://dn42usw.azurewebsites.net|United States Washington| X (Diagnosing low service-level)
-https://dn42hk.azurewebsites.net |Hong Kong| X (Diagnosing low service-level)
+https://dn42uk.azurewebsites.net |United Kingdom London| Δ (not stable)
+https://dn42usw.azurewebsites.net|United States Washington| Δ (not stable)
+https://dn42hk.azurewebsites.net |Hong Kong| Δ (not stable)
+https://dn42br.azurewebsites.net |Brazil São Paulo| X (very not stable)
+https://dn42sg.azurewebsites.net |Singapore| X (very not stable)
 
-
+### Route Propagation Graph
+![RPG1111](https://bgp-api.strexp.net/as_graph/AS4201271111)
 
 <!---
 ### Hong Kong
