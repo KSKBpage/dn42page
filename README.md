@@ -86,9 +86,9 @@ https://dn42ch.azurewebsites.net |Switzerland Zürich| O
 https://dn42ca.azurewebsites.net |Canada Toronto| O
 https://dn42au.azurewebsites.net |Australia Canberra| O
 https://dn42uae.azurewebsites.net|United Arab Emirates Dubai| O
-https://dn42uk.azurewebsites.net |United Kingdom London| Δ (unstable)
 https://dn42usw.azurewebsites.net|United States Washington| Δ (unstable)
 https://dn42hk.azurewebsites.net |Hong Kong| Δ (unstable)
+https://dn42uk.azurewebsites.net |United Kingdom London| X (very unstable)
 https://dn42br.azurewebsites.net |Brazil São Paulo| X (very unstable)
 https://dn42sg.azurewebsites.net |Singapore| X (very unstable)
 
