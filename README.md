@@ -10,7 +10,10 @@ Network addresses are assigned in the `172.20.0.0/14` range and private AS numbe
 [DN42](https://lantian.pub/en/article/modify-website/dn42-experimental-network-2020.lantian/) can be used to learn networking and to connect private networks, such as hackerspaces or community networks. But above all, experimenting with routing in [DN42](https://lantian.pub/en/article/modify-website/dn42-experimental-network-2020.lantian/) is fun!
 
 ## Peering Requests
-Contact me on telegram https://t.me/KusakabeSi if you’d like to peer with me.
+
+If you’d like to peer with me, you can...
+1. Contact me on telegram https://t.me/KusakabeSi
+2. Use AutoPeer service listed below
 
 ### Peering Requirements
 To peer with me, you must meet the following requirements:
@@ -35,11 +38,16 @@ This two networks are fully isolated except they are peering with eBGP.
 
 ![image](https://user-images.githubusercontent.com/73118488/141317915-985c2c12-4cad-4956-a622-67123023de5d.png)
 
+* [Etherguard](https://github.com/KusakabeSi/EtherGuard-VPN)
+
 ## KSKB-AS
+
 * ASN : `AS4242421817`
-* Speed : `100mbps`
-* Multiprotocol BGP: `enabled`
-* Extended next hop: `enabled`
+* Speed : 100mbps
+* Multiprotocol BGP: `supported`
+* Extended next hop: `supported`
+* Architecture: Normal linux distribution.
+* Host in relative stable VPS/VM
 
 ### Nodes
 #### Taiwan
@@ -47,24 +55,26 @@ This two networks are fully isolated except they are peering with eBGP.
 * DN42 IPv6 : `fd28:cb8f:4c92::33`
 * Link local IPv6 : `fe80::42:1817:1`
 * Wireguard Public key : `jxCsSXtUSVjaP+eMWOyRsHg3JShQfBFEtyssMKWQaS8=`
-* Port: `{20000 + int(your_asn[-4:])}`
+* Port: `{20000 + your_asn/10000}`
 * Endpoint: `tw.kskb.eu.org`
 * Endpoint(IPv4): `4.tw.kskb.eu.org`
 * Endpoint(IPv6): `6.tw.kskb.eu.org`
 * CronJob: `*/10 * * * * wg set dn42-kskb peer "jxCsSXtUSVjaP+eMWOyRsHg3JShQfBFEtyssMKWQaS8=" endpoint "tw.kskb.eu.org:$Port"`
 * AutoPeer: https://tw42.kskb.eu.org
+* Hosting in my bedroom-cloud
 
-This node uses dynamic IP, so make sure to set a CronJob to resolve my ip periodically to prevent lost connection after my IP chabged.
+This node uses dynamic IP, so make sure to set a crontob to resolve my ip periodically to prevent lost connection after my IP chabged.
 
 ### Route Propagation Graph
 ![RPG1817](https://bgp-api.strexp.net/as_graph/AS4242421817)
 
 ## Kusakabe-Neo
 * ASN : `AS4201271111`
-* Speed : `2mbps`
-* Multiprotocol BGP: `enabled`
-* Extended next hop: `enabled`
+* Speed : **2mbps**
+* Multiprotocol BGP: `supported`
+* Extended next hop: `supported`
 * **No Clearnet Endpoint! You have to provide your endpoint(IPv4 only)!**
+* **Host in very cheap, slow and unstable container**
 * Server status: https://42status.kskb.eu.org/
 
 URL                              | Location  | Accept New Peer
@@ -74,11 +84,11 @@ https://dn42ch.azurewebsites.net |Switzerland Zürich| O
 https://dn42ca.azurewebsites.net |Canada Toronto| O
 https://dn42au.azurewebsites.net |Australia Canberra| O
 https://dn42uae.azurewebsites.net|United Arab Emirates Dubai| O
-https://dn42uk.azurewebsites.net |United Kingdom London| Δ (not stable)
-https://dn42usw.azurewebsites.net|United States Washington| Δ (not stable)
-https://dn42hk.azurewebsites.net |Hong Kong| Δ (not stable)
-https://dn42br.azurewebsites.net |Brazil São Paulo| X (very not stable)
-https://dn42sg.azurewebsites.net |Singapore| X (very not stable)
+https://dn42uk.azurewebsites.net |United Kingdom London| Δ (unstable)
+https://dn42usw.azurewebsites.net|United States Washington| Δ (unstable)
+https://dn42hk.azurewebsites.net |Hong Kong| Δ (unstable)
+https://dn42br.azurewebsites.net |Brazil São Paulo| X (very unstable)
+https://dn42sg.azurewebsites.net |Singapore| X (very unstable)
 
 ### Route Propagation Graph
 ![RPG1111](https://bgp-api.strexp.net/as_graph/AS4201271111)
