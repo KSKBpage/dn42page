@@ -87,11 +87,12 @@ https://dn42ch.azurewebsites.net |Switzerland Zürich| O
 https://dn42ca.azurewebsites.net |Canada Toronto| O
 https://dn42au.azurewebsites.net |Australia Canberra| O
 https://dn42uae.azurewebsites.net|United Arab Emirates Dubai| O
+https://appsg.azurewebsites.net  |Singapore| O
 https://dn42usw.azurewebsites.net|United States Washington| Δ (unstable)
 https://dn42hk.azurewebsites.net |Hong Kong| Δ (unstable)
-https://dn42ie.azurewebsites.net |Ireland| ? (stability unknown)
+https://dn42nl.azurewebsites.net |Netherlands| ? (stability unknown)
 https://dn42br.azurewebsites.net |Brazil São Paulo| X (very unstable)
-https://dn42sg.azurewebsites.net |Singapore| X (very unstable)
+
 
 ### Route Propagation Graph
 [![RPG1111](https://bgp-api.strexp.net/as_graph/AS4201271111)](https://bgp42.strexp.net/asInfo/4201271111)
