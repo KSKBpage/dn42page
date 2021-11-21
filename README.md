@@ -40,7 +40,7 @@ This two networks are fully isolated except they are peering with eBGP.
 
 * [Etherguard](https://github.com/KusakabeSi/EtherGuard-VPN)
 
-## KSKB-AS
+## KSKB-AS (AS4242421817)
 
 * ASN : `AS4242421817`
 * Host in **relative stable** VPS/VM
@@ -69,7 +69,7 @@ This node uses dynamic IP, so make sure to set a crontob to resolve my ip period
 ### Route Propagation Graph
 [![RPG1817](https://bgp-api.strexp.net/as_graph/AS4242421817)](https://bgp42.strexp.net/asInfo/4242421817)
 
-## Kusakabe-Neo
+## Kusakabe-Neo (AS4201271111)
 * ASN : `AS4201271111`
 * **Host in relative cheap, low-end container**
 * Speed : **2mbps**
