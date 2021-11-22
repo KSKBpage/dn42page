@@ -90,7 +90,7 @@ https://dn42uae.azurewebsites.net|United Arab Emirates Dubai| O
 https://appsg.azurewebsites.net  |Singapore| O
 https://dn42usw.azurewebsites.net|United States Washington| Δ (unstable)
 https://dn42hk.azurewebsites.net |Hong Kong| Δ (unstable)
-https://dn42nl.azurewebsites.net |Netherlands| ? (stability unknown)
+https://dn42nl.azurewebsites.net |Netherlands| Δ (unstable)
 https://dn42br.azurewebsites.net |Brazil São Paulo| X (very unstable)
 
 
