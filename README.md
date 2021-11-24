@@ -43,7 +43,7 @@ This two networks are fully isolated except they are peering with eBGP.
 ## KSKB-AS (AS4242421817)
 
 * ASN : `AS4242421817`
-* Host in **relative stable** VPS/VM
+* Host in my home
 * Speed : **100mbps**
 * Multiprotocol BGP: `supported`
 * Extended next hop: `supported`
