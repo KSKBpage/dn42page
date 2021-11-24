@@ -81,7 +81,7 @@ This node uses dynamic IP, so make sure to **set a crontob** to resolve my ip pe
 * Architecture: [RootlessRouter-UML](https://github.com/KusakabeSi/RootlessRouter-UML/)
 * Server status: https://42status.kskb.eu.org/
 
-URL                              | Location                     | Accept New Peer   | Plan    |Bandwidth| SLA   |
+Autopeer URL                     | Location                     | Accept New Peer   | Plan    |Bandwidth| SLA   |
 ---------------------------------|------------------------------|-------------------|---------|---------|-------|
 https://dn42jpe.azurewebsites.net|Japan Tokyo                   | O                 | F1 plan | 2mbps   | No    |
 https://dn42ch.azurewebsites.net |Switzerland Zürich            | O                 | F1 plan | 2mbps   | No    |
