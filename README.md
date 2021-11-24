@@ -79,18 +79,18 @@ This node uses dynamic IP, so make sure to set a crontob to resolve my ip period
 * Architecture: [RootlessRouter-UML](https://github.com/KusakabeSi/RootlessRouter-UML/)
 * Server status: https://42status.kskb.eu.org/
 
-URL                              | Location                     | Accept New Peer   | Plan    |Bandwidth
----------------------------------|------------------------------|-------------------|---------|---------|
-https://dn42jpe.azurewebsites.net|Japan Tokyo                   | O                 | F1 plan | 2mbps   |
-https://dn42ch.azurewebsites.net |Switzerland Zürich            | O                 | F1 plan | 2mbps   |
-https://dn42ca.azurewebsites.net |Canada Toronto                | O                 | F1 plan | 2mbps   |
-https://dn42au.azurewebsites.net |Australia Canberra            | O                 | F1 plan | 2mbps   |
-https://dn42uae.azurewebsites.net|United Arab Emirates Dubai    | O                 | F1 plan | 2mbps   |
-https://appsg.azurewebsites.net  |Singapore                     | O                 | B1 plan | 100mbps |
-https://dn42usw.azurewebsites.net|United States Washington      | Δ (unstable)      | F1 plan | 2mbps   |          
-https://dn42hk.azurewebsites.net |Hong Kong                     | Δ (unstable)      | F1 plan | 2mbps   |          
-https://dn42nl.azurewebsites.net |Netherlands                   | Δ (unstable)      | F1 plan | 2mbps   |          
-https://dn42br.azurewebsites.net |Brazil São Paulo              | X (very unstable) | F1 plan | 2mbps   |               
+URL                              | Location                     | Accept New Peer   | Plan    |Bandwidth| SLA   |
+---------------------------------|------------------------------|-------------------|---------|---------|-------|
+https://dn42jpe.azurewebsites.net|Japan Tokyo                   | O                 | F1 plan | 2mbps   | No    |
+https://dn42ch.azurewebsites.net |Switzerland Zürich            | O                 | F1 plan | 2mbps   | No    |
+https://dn42ca.azurewebsites.net |Canada Toronto                | O                 | F1 plan | 2mbps   | No    |
+https://dn42au.azurewebsites.net |Australia Canberra            | O                 | F1 plan | 2mbps   | No    |
+https://dn42uae.azurewebsites.net|United Arab Emirates Dubai    | O                 | F1 plan | 2mbps   | No    |
+https://appsg.azurewebsites.net  |Singapore                     | O                 | B1 plan | 100mbps | 99.95 |
+https://dn42usw.azurewebsites.net|United States Washington      | Δ (unstable)      | F1 plan | 2mbps   | No    |          
+https://dn42hk.azurewebsites.net |Hong Kong                     | Δ (unstable)      | F1 plan | 2mbps   | No    |          
+https://dn42nl.azurewebsites.net |Netherlands                   | Δ (unstable)      | F1 plan | 2mbps   | No    |          
+https://dn42br.azurewebsites.net |Brazil São Paulo              | X (very unstable) | F1 plan | 2mbps   | No    |               
 
 
 ### Route Propagation Graph
