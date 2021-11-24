@@ -71,8 +71,7 @@ This node uses dynamic IP, so make sure to set a crontob to resolve my ip period
 
 ## Kusakabe-Neo (AS4201271111)
 * ASN : `AS4201271111`
-* **Host in relative cheap, low-end container**
-* Speed : **2mbps**
+* **Host in Azure app service, no exposed ports**
 * Multiprotocol BGP: `supported`
 * Extended next hop: `supported`
 * **No Clearnet Endpoint! You have to provide your endpoint(IPv4 only)!**
@@ -80,18 +79,18 @@ This node uses dynamic IP, so make sure to set a crontob to resolve my ip period
 * Architecture: [RootlessRouter-UML](https://github.com/KusakabeSi/RootlessRouter-UML/)
 * Server status: https://42status.kskb.eu.org/
 
-URL                              | Location  | Accept New Peer
----------------------------------|-------|-------|
-https://dn42jpe.azurewebsites.net|Japan Tokyo| O
-https://dn42ch.azurewebsites.net |Switzerland Zürich| O
-https://dn42ca.azurewebsites.net |Canada Toronto| O
-https://dn42au.azurewebsites.net |Australia Canberra| O
-https://dn42uae.azurewebsites.net|United Arab Emirates Dubai| O
-https://appsg.azurewebsites.net  |Singapore| O
-https://dn42usw.azurewebsites.net|United States Washington| Δ (unstable)
-https://dn42hk.azurewebsites.net |Hong Kong| Δ (unstable)
-https://dn42nl.azurewebsites.net |Netherlands| Δ (unstable)
-https://dn42br.azurewebsites.net |Brazil São Paulo| X (very unstable)
+URL                              | Location                     | Accept New Peer   | Plan    |Bandwidth
+---------------------------------|------------------------------|-------------------|---------|---------|
+https://dn42jpe.azurewebsites.net|Japan Tokyo                   | O                 | F1 plan | 2mbps   |
+https://dn42ch.azurewebsites.net |Switzerland Zürich            | O                 | F1 plan | 2mbps   |
+https://dn42ca.azurewebsites.net |Canada Toronto                | O                 | F1 plan | 2mbps   |
+https://dn42au.azurewebsites.net |Australia Canberra            | O                 | F1 plan | 2mbps   |
+https://dn42uae.azurewebsites.net|United Arab Emirates Dubai    | O                 | F1 plan | 2mbps   |
+https://appsg.azurewebsites.net  |Singapore                     | O                 | B1 plan | 100mbps |
+https://dn42usw.azurewebsites.net|United States Washington      | Δ (unstable)      | F1 plan | 2mbps   |          
+https://dn42hk.azurewebsites.net |Hong Kong                     | Δ (unstable)      | F1 plan | 2mbps   |          
+https://dn42nl.azurewebsites.net |Netherlands                   | Δ (unstable)      | F1 plan | 2mbps   |          
+https://dn42br.azurewebsites.net |Brazil São Paulo              | X (very unstable) | F1 plan | 2mbps   |               
 
 
 ### Route Propagation Graph
