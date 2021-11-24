@@ -43,7 +43,7 @@ This two networks are fully isolated except they are peering with eBGP.
 ## KSKB-AS (AS4242421817)
 
 * ASN : `AS4242421817`
-* Host in my home
+* Host in my home(dynamic IP)
 * Speed : **100mbps**
 * Multiprotocol BGP: `supported`
 * Extended next hop: `supported`
@@ -64,7 +64,7 @@ This two networks are fully isolated except they are peering with eBGP.
 * AutoPeer: https://tw42.kskb.eu.org
 * Hosting in my bedroom-cloud
 
-This node uses dynamic IP, so make sure to set a crontob to resolve my ip periodically to prevent lost connection after my IP chabged.
+This node uses dynamic IP, so make sure to **set a crontob** to resolve my ip periodically to prevent lost connection after my IP chabged.
 
 ### Route Propagation Graph
 [![RPG1817](https://bgp-api.strexp.net/as_graph/AS4242421817)](https://bgp42.strexp.net/asInfo/4242421817)
@@ -75,7 +75,7 @@ This node uses dynamic IP, so make sure to set a crontob to resolve my ip period
 * Multiprotocol BGP: `supported`
 * Extended next hop: `supported`
 * **No Clearnet Endpoint! You have to provide your endpoint(IPv4 only)!**
-* ICMP packets are filtered out at the public endpoint by the service provider, please use tcpping to the port 80 of following URLs to measure the latency
+* **ICMP packets are filtered** out at the public endpoint by the service provider, please **use tcpping to the port 80** of following URLs to measure the latency
 * Architecture: [RootlessRouter-UML](https://github.com/KusakabeSi/RootlessRouter-UML/)
 * Server status: https://42status.kskb.eu.org/
 
