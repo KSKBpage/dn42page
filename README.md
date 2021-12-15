@@ -45,26 +45,13 @@ This two networks are fully isolated except they are peering with eBGP.
 ## KSKB-AS (AS4242421817)
 
 * ASN : `AS4242421817`
-* Host in my home(dynamic IP)
-* Speed : **100mbps**
 * Multiprotocol BGP: `supported`
 * Extended next hop: `supported`
 * Architecture: Normal linux distribution.
 
-
-### Nodes
-#### Taiwan
-* DN42 IPv4 : `172.22.77.33`
-* DN42 IPv6 : `fd28:cb8f:4c92::33`
-* Link local IPv6 : `fe80::42:1817:1`
-* Wireguard Public key : `jxCsSXtUSVjaP+eMWOyRsHg3JShQfBFEtyssMKWQaS8=`
-* Port: `{20000 + your_asn/10000}`
-* Endpoint: `tw.kskb.eu.org`
-* Endpoint(IPv4): `4.tw.kskb.eu.org`
-* Endpoint(IPv6): `6.tw.kskb.eu.org`
-* CronJob: `*/10 * * * * wg set dn42-kskb peer "jxCsSXtUSVjaP+eMWOyRsHg3JShQfBFEtyssMKWQaS8=" endpoint "tw.kskb.eu.org:$Port"`
-* AutoPeer: https://tw42.kskb.eu.org
-* Hosting in my bedroom-cloud
+Autopeer URL & Lookong Glass     | Location                     | Accept New Peer   | Plan    |Bandwidth| SLA   |
+---------------------------------|------------------------------|-------------------|---------|---------|-------|
+https://dn42tw.pages.dev         | Taiwan                       | O                 | My PC   | 100mbps | No    |
 
 This node uses dynamic IP, so make sure to **set a crontob** to resolve my ip periodically to prevent lost connection after my IP chabged.
 
@@ -81,7 +68,7 @@ This node uses dynamic IP, so make sure to **set a crontob** to resolve my ip pe
 * Architecture: [RootlessRouter-UML](https://github.com/KusakabeSi/RootlessRouter-UML/)
 * Server status: https://42status.kskb.eu.org/
 
-Autopeer URL                     | Location                     | Accept New Peer   | Plan    |Bandwidth| SLA   |
+Autopeer URL & Lookong Glass     | Location                     | Accept New Peer   | Plan    |Bandwidth| SLA   |
 ---------------------------------|------------------------------|-------------------|---------|---------|-------|
 https://dn42jp.azurewebsites.net |Japan Tokyo                   | O                 | F1 plan | 2mbps   | No    |
 https://dn42ch.azurewebsites.net |Switzerland Zürich            | O                 | F1 plan | 2mbps   | No    |
