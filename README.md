@@ -49,11 +49,9 @@ This two networks are fully isolated except they are peering with eBGP.
 * Extended next hop: `supported`
 * Architecture: Normal linux distribution.
 
-Autopeer URL & Lookong Glass     | Location                     | Accept New Peer   | Plan    |Bandwidth| SLA   |
----------------------------------|------------------------------|-------------------|---------|---------|-------|
-https://dn42tw.pages.dev         | Taiwan                       | O                 | My PC   | 100mbps | No    |
-
-This node uses dynamic IP, so make sure to **set a crontob** to resolve my ip periodically to prevent lost connection after my IP chabged.
+Autopeer URL & Lookong Glass     | Location                     | Accept New Peer   | Plan    |Bandwidth|Public IP  | SLA   |
+---------------------------------|------------------------------|-------------------|---------|---------|-----------|-------|
+https://dn42tw.pages.dev         | Taiwan                       | O                 | My PC   | 100mbps |Δ (dynamic)| No    |
 
 ### Route Propagation Graph
 [![RPG1817](https://bgp-api.strexp.net/as_graph/AS4242421817)](https://bgp42.strexp.net/asInfo/4242421817)
@@ -68,102 +66,25 @@ This node uses dynamic IP, so make sure to **set a crontob** to resolve my ip pe
 * Architecture: [RootlessRouter-UML](https://github.com/KusakabeSi/RootlessRouter-UML/)
 * Server status: https://42status.kskb.eu.org/
 
-Autopeer URL & Lookong Glass     | Location                     | Accept New Peer   | Plan    |Bandwidth| SLA   |
----------------------------------|------------------------------|-------------------|---------|---------|-------|
-https://dn42jp.azurewebsites.net |Japan Tokyo                   | O                 | F1 plan | 2mbps   | No    |
-https://dn42ch.azurewebsites.net |Switzerland Zürich            | O                 | F1 plan | 2mbps   | No    |
-https://dn42ca.azurewebsites.net |Canada Toronto                | O                 | F1 plan | 2mbps   | No    |
-https://dn42au.azurewebsites.net |Australia Canberra            | O                 | F1 plan | 2mbps   | No    |
-https://dn42uae.azurewebsites.net|United Arab Emirates Dubai    | O                 | F1 plan | 2mbps   | No    |
-https://appsg.azurewebsites.net  |Singapore                     | O                 | B1 plan | 100mbps | 99.95%|
-https://dn42usw.azurewebsites.net|United States Washington      | Δ (unstable)      | F1 plan | 2mbps   | No    |          
-https://dn42hk.azurewebsites.net |Hong Kong                     | Δ (unstable)      | F1 plan | 2mbps   | No    |          
-https://dn42nl.azurewebsites.net |Netherlands                   | Δ (unstable)      | F1 plan | 2mbps   | No    |               
+Autopeer URL & Lookong Glass     | Location                     | Open Peering | Plan    |Bandwidth |Public IP| SLA   |
+---------------------------------|------------------------------|--------------|---------|--------- |---------|-------|
+https://dn42jp.azurewebsites.net |Japan Tokyo                   | O            | F1 plan | 2mbps    | X       | No    |
+https://dn42ch.azurewebsites.net |Switzerland Zürich            | O            | F1 plan | 2mbps    | X       | No    |
+https://dn42ca.azurewebsites.net |Canada Toronto                | O            | F1 plan | 2mbps    | X       | No    |
+https://dn42au.azurewebsites.net |Australia Canberra            | O            | F1 plan | 2mbps    | X       | No    |
+https://dn42uae.azurewebsites.net|United Arab Emirates Dubai    | O            | F1 plan | 2mbps    | X       | No    |
+https://appsg.azurewebsites.net  |Singapore                     | O            | B1 plan | 100mbps  | X       | 99.95%|
+https://dn42usw.azurewebsites.net|United States Washington      | Δ (unstable) | F1 plan | 2mbps    | X       | No    |          
+https://dn42hk.azurewebsites.net |Hong Kong                     | Δ (unstable) | F1 plan | 2mbps    | X       | No    |          
+https://dn42nl.azurewebsites.net |Netherlands                   | Δ (unstable) | F1 plan | 2mbps    | X       | No    |               
 
 
 ### Route Propagation Graph
 [![RPG1111](https://bgp-api.strexp.net/as_graph/AS4201271111)](https://bgp42.strexp.net/asInfo/4201271111)
 
-<!---
-### Hong Kong
-* DN42 IPv4 : `10.127.111.1`
-* DN42 IPv6 : `fd10:127:e00f:1::1`
-* Link local IPv6 : `fe80::aa:1111:1`
-* Wireguard Public key : `2JHMpwkKaAMuMBrmapx9zqgGDIZOX9HZw5V2c1l66R8=`
-* Endpoint: `(Not available)`
-* Autopeer & looking glass: https://dn42hk.azurewebsites.net/
-* Accept New Peer: No
+## Dynamic IP
 
-### Japan Tokyo
-* DN42 IPv4 : `10.127.111.9`
-* DN42 IPv6 : `fd10:127:e00f:9::1`
-* Link local IPv6 : `fe80::aa:1111:9`
-* Wireguard Public key : `2CxGhL9UwlCB3ybwD1OF2Or18vCPgChS0rdh3Nc8S0c=`
-* Endpoint: `(Not available)`
-* Autopeer & looking glass: https://dn42jp.azurewebsites.net/
-* Accept New Peer: **Yes**
-
-### Singapore
-* DN42 IPv4 : `10.127.111.17`
-* DN42 IPv6 : `fd10:127:e00f:11::1`
-* Link local IPv6 : `fe80::aa:1111:11`
-* Wireguard Public key : `7TIbiifNzh8HxLUM8cBvwmBo/kuaCAUCRahbBMoVA1Q=`
-* Endpoint: `(Not available)`
-* Autopeer & looking glass: https://dn42sg.azurewebsites.net/
-* Accept New Peer: No
-
-### United States Washington
-* DN42 IPv4 : `10.127.111.33`
-* DN42 IPv6 : `fd10:127:e00f:21::1`
-* Link local IPv6 : `fe80::aa:1111:21`
-* Wireguard Public key : `ffcWCDuBP3YdufFzOaiW2QeZLFG/GXg4QfbWTZ6LVz8=`
-* Endpoint: `(Not available)`
-* Autopeer & looking glass: https://dn42usw.azurewebsites.net/
-* Accept New Peer: No
-
-### Canada Toronto
-* DN42 IPv4 : `10.127.111.51`
-* DN42 IPv6 : `fd10:127:e00f:33::1`
-* Link local IPv6 : `fe80::aa:1111:33`
-* Wireguard Public key : `2FSX+6N/PwfipN/jXMj++4mabFQj25MXDy51mnnz3AA=`
-* Endpoint: `(Not available)`
-* Autopeer & looking glass: https://dn42ca.azurewebsites.net/
-* Accept New Peer: **Yes**
-
-### Switzerland Zürich
-* DN42 IPv4 : `10.127.111.65`
-* DN42 IPv6 : `fd10:127:e00f:41::1`
-* Link local IPv6 : `fe80::aa:1111:41`
-* Wireguard Public key : `YnoqhBTjO0+2vj/1lXqzOmvKeCwZ4q3BJzNyxN/zQ00=`
-* Endpoint: `(Not available)`
-* Autopeer & looking glass: https://dn42ch.azurewebsites.net/
-* Accept New Peer: **Yes**
-
-### United Kingdom London
-* DN42 IPv4 : `10.127.111.66`
-* DN42 IPv6 : `fd10:127:e00f:42::1`
-* Link local IPv6 : `fe80::aa:1111:42`
-* Wireguard Public key : `9pNKpUdPSERqELcTCcvOLSeZsSSyw3kNFYmZ7epZZ0k=`
-* Endpoint: `(Not available)`
-* Autopeer & looking glass: https://dn42uk.azurewebsites.net/
-* Accept New Peer: No
-
-### Australia Canberra
-* DN42 IPv4 : `10.127.111.81`
-* DN42 IPv6 : `fd10:127:e00f:51::1`
-* Link local IPv6 : `fe80::aa:1111:51`
-* Wireguard Public key : `Q7KOnB3xhaTNpszgozEXdq1cxBpYIX1JUMNV5J5JMwo=`
-* Endpoint: `(Not available)`
-* Autopeer & looking glass: https://dn42au.azurewebsites.net/
-* Accept New Peer: **Yes**
-
-### United Arab Emirates Dubai
-* DN42 IPv4 : `10.127.111.89`
-* DN42 IPv6 : `fd10:127:e00f:59::1`
-* Link local IPv6 : `fe80::aa:1111:59`
-* Wireguard Public key : `TfGP1jK/47H6hv1zrujkDnWvTAWhEJ5baB12JehB6gw=`
-* Endpoint: `(Not available)`
-* Autopeer & looking glass: https://dn42uae.azurewebsites.net/
-* Accept New Peer: **Yes**
-
--->
+This is an example crontab which cam resolve the ip periodically to prevent lost connection after dynamic chabged.
+```
+*/10 * * * * wg set dn42-kskb peer "{wireguard public key}" endpoint "{peer wg endpoint}"
+```
