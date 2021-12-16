@@ -55,9 +55,6 @@ https://dn42tw.pages.dev         | Taiwan                       | O            |
 https://dn42de.pages.dev         | Germany                      | O            | HZ-FREE | 100mbps | Δ[^Nport]  | Δ   | No    |
 
 
-[^DynamicIP]: Dynamic IP
-[^Nport]: only 9 external port available in my side, contact me if you doesn;t have external port
-
 ### Route Propagation Graph
 [![RPG1817](https://bgp-api.strexp.net/as_graph/AS4242421817)](https://bgp42.strexp.net/asInfo/4242421817)
 
@@ -93,3 +90,6 @@ This is an example crontab which cam resolve the ip periodically to prevent lost
 ```
 */10 * * * * wg set dn42-kskb peer "{wireguard public key}" endpoint "{peer wg endpoint}"
 ```
+
+[^DynamicIP]: Dynamic IP
+[^Nport]: Only 9 external port available in my side, contact me if you don't have external port
