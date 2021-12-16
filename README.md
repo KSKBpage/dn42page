@@ -49,9 +49,14 @@ This two networks are fully isolated except they are peering with eBGP.
 * Extended next hop: `supported`
 * Architecture: Normal linux distribution.
 
-Autopeer URL & Lookong Glass     | Location                     | Open Peering | Plan    |Bandwidth|Public IP  | SLA   |
----------------------------------|------------------------------|--------------|---------|---------|-----------|-------|
-https://dn42tw.pages.dev         | Taiwan                       | O            | My PC   | 100mbps |Δ (dynamic)| No    |
+Autopeer URL & Lookong Glass     | Location                     | Open Peering | Plan    |Bandwidth|IPv4 |IPv6 | SLA   |
+---------------------------------|------------------------------|--------------|---------|---------|-----|-----|-------|
+https://dn42tw.pages.dev         | Taiwan                       | O            | My PC   | 100mbps | O[^DynamicIP]  | O[^DynamicIP]  | No    |
+https://dn42de.pages.dev         | Germany                      | O            | HZ-FREE | 100mbps | Δ[^Nport]  | Δ   | No    |
+
+
+[^DynamicIP]: Dynamic IP
+[^Nport]: only 9 external port available in my side, contact me if you doesn;t have external port
 
 ### Route Propagation Graph
 [![RPG1817](https://bgp-api.strexp.net/as_graph/AS4242421817)](https://bgp42.strexp.net/asInfo/4242421817)
@@ -66,17 +71,17 @@ https://dn42tw.pages.dev         | Taiwan                       | O            |
 * Architecture: [RootlessRouter-UML](https://github.com/KusakabeSi/RootlessRouter-UML/)
 * Server status: https://42status.kskb.eu.org/
 
-Autopeer URL & Lookong Glass     | Location                     | Open Peering | Plan   |Bandwidth |Public IP| SLA   |
----------------------------------|------------------------------|--------------|--------|--------- |---------|-------|
-https://dn42jp.azurewebsites.net |Japan Tokyo                   | O            | app-F1 | 2mbps    | X       | No    |
-https://dn42ch.azurewebsites.net |Switzerland Zürich            | O            | app-F1 | 2mbps    | X       | No    |
-https://dn42ca.azurewebsites.net |Canada Toronto                | O            | app-F1 | 2mbps    | X       | No    |
-https://dn42au.azurewebsites.net |Australia Canberra            | O            | app-F1 | 2mbps    | X       | No    |
-https://dn42uae.azurewebsites.net|United Arab Emirates Dubai    | O            | app-F1 | 2mbps    | X       | No    |
-https://appsg.azurewebsites.net  |Singapore                     | O            | app-B1 | 100mbps  | X       | 99.95%|
-https://dn42usw.azurewebsites.net|United States Washington      | Δ (unstable) | app-F1 | 2mbps    | X       | No    |          
-https://dn42hk.azurewebsites.net |Hong Kong                     | Δ (unstable) | app-F1 | 2mbps    | X       | No    |          
-https://dn42nl.azurewebsites.net |Netherlands                   | Δ (unstable) | app-F1 | 2mbps    | X       | No    |               
+Autopeer URL & Lookong Glass     | Location                     | Open Peering | Plan   |Bandwidth |v4   |v6   | SLA   |
+---------------------------------|------------------------------|--------------|--------|--------- |-----|-----|-------|
+https://dn42jp.azurewebsites.net |Japan Tokyo                   | O            | F1 | 2mbps    | Δ   | X   | No    |
+https://dn42ch.azurewebsites.net |Switzerland Zürich            | O            | F1 | 2mbps    | Δ   | X   | No    |
+https://dn42ca.azurewebsites.net |Canada Toronto                | O            | F1 | 2mbps    | Δ   | X   | No    |
+https://dn42au.azurewebsites.net |Australia Canberra            | O            | F1 | 2mbps    | Δ   | X   | No    |
+https://dn42uae.azurewebsites.net|United Arab Emirates Dubai    | O            | F1 | 2mbps    | Δ   | X   | No    |
+https://appsg.azurewebsites.net  |Singapore                     | O            | B1 | 100mbps  | Δ   | X   | 99.95%|
+https://dn42usw.azurewebsites.net|United States Washington      | O            | F1 | 2mbps    | Δ   | X   | No    |          
+https://dn42hk.azurewebsites.net |Hong Kong                     | O            | F1 | 2mbps    | Δ   | X   | No    |          
+https://dn42nl.azurewebsites.net |Netherlands                   | O            | F1 | 2mbps    | Δ   | X   | No    |               
 
 
 ### Route Propagation Graph
