@@ -73,8 +73,7 @@ https://kskb42.pages.dev/de      | Germany                      | O            |
 
 ## Kusakabe-Neo (AS4201271111)
 * ASN : `AS4201271111`
-* **Host in Azure app service, no exposed ports**
-* **ICMP packets are filtered** out at the public endpoint by the service provider, please **use tcpping to the port 80** of following URLs to measure the latency
+* **ICMP packets are filtered** by the service provider, **use tcpping** to measure the latency
 * Architecture: [RootlessRouter-UML](https://github.com/KusakabeSi/RootlessRouter-UML/)
 * Server status: https://42status.kskb.eu.org/
 
