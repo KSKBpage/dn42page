@@ -54,7 +54,7 @@ X| means negative
 In the IP section
 Symbol  | Means             
 --------|----------
-O| This node have public IP, all ports are exposed in the network
+O| This node have public IP. <br> You can peer with this node even if you are behind NAT.
 Δ| This node doesn't have public IP, it's behind NAT.<br>You have to provide your endpoint
 X| Not accessable
 
