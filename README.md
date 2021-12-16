@@ -49,20 +49,21 @@ Symbol  | Means
 --------|----------
 O| positive  
 Δ| partially positive  
-X| means negative  
+X| negative  
 
 In the IP section
 Symbol  | Means             
 --------|----------
-O| This node have public IP. <br> You can peer with this node even if you are behind NAT.
+O| This node have public IP. <br>You can peer with this node even if you are behind NAT.
 Δ| This node doesn't have public IP, it's behind NAT.<br>You have to provide your endpoint
 X| Not accessable
 
-## KSKB-AS (AS4242421817)
-
-* ASN : `AS4242421817`
+## BGP support
 * Multiprotocol BGP: `supported`
 * Extended next hop: `supported`
+
+## KSKB-AS (AS4242421817)
+* ASN : `AS4242421817`
 * Architecture: Normal linux distribution.
 
 Autopeer URL & Lookong Glass     | Location                     | Open Peering | Plan    |Bandwidth|IPv4 |IPv6 |
@@ -70,16 +71,9 @@ Autopeer URL & Lookong Glass     | Location                     | Open Peering |
 https://kskb42.pages.dev/tw      | Taiwan                       | O            | My PC   | 100mbps | O[^DynamicIP]  | O[^DynamicIP]  |
 https://kskb42.pages.dev/de      | Germany                      | O            | HZ-FREE | 500mbps | Δ[^Nport]  | Δ   |
 
-
-### Route Propagation Graph
-[![RPG1817](https://bgp-api.strexp.net/as_graph/AS4242421817)](https://bgp42.strexp.net/asInfo/4242421817)
-
 ## Kusakabe-Neo (AS4201271111)
 * ASN : `AS4201271111`
 * **Host in Azure app service, no exposed ports**
-* Multiprotocol BGP: `supported`
-* Extended next hop: `supported`
-* **No Clearnet Endpoint! You have to provide your endpoint(IPv4 only)!**
 * **ICMP packets are filtered** out at the public endpoint by the service provider, please **use tcpping to the port 80** of following URLs to measure the latency
 * Architecture: [RootlessRouter-UML](https://github.com/KusakabeSi/RootlessRouter-UML/)
 * Server status: https://42status.kskb.eu.org/
@@ -96,8 +90,10 @@ https://dn42usw.azurewebsites.net|United States Washington      | O            |
 https://dn42hk.azurewebsites.net |Hong Kong                     | O            | F1     | 2mbps    | Δ   | X   |          
 https://dn42nl.azurewebsites.net |Netherlands                   | O            | F1     | 2mbps    | Δ   | X   |               
 
+### Route Propagation Graph for KSKB-AS (AS4242421817)
+[![RPG1817](https://bgp-api.strexp.net/as_graph/AS4242421817)](https://bgp42.strexp.net/asInfo/4242421817)
 
-### Route Propagation Graph
+### Route Propagation Graph for Kusakabe-Neo (AS4201271111)
 [![RPG1111](https://bgp-api.strexp.net/as_graph/AS4201271111)](https://bgp42.strexp.net/asInfo/4201271111)
 
 ## Dynamic IP
