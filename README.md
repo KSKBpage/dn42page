@@ -42,6 +42,22 @@ This two networks are fully isolated except they are peering with eBGP.
 
 * [Etherguard](https://github.com/KusakabeSi/EtherGuard-VPN)
 
+## Symbol
+
+Generally, the symbol means: 
+Symbol  | Means             
+--------|----------
+O| positive  
+Δ| partially positive  
+X| means negative  
+
+In the IP section
+Symbol  | Means             
+--------|----------
+O| This node have public IP, all ports are exposed in the network
+Δ| This node doesn't have public IP, it's behind NAT.<br>You have to provide your endpoint
+X| Not accessable
+
 ## KSKB-AS (AS4242421817)
 
 * ASN : `AS4242421817`
@@ -68,7 +84,7 @@ https://kskb42.pages.dev/de      | Germany                      | O            |
 * Architecture: [RootlessRouter-UML](https://github.com/KusakabeSi/RootlessRouter-UML/)
 * Server status: https://42status.kskb.eu.org/
 
-Autopeer URL & Lookong Glass     | Location                     | Open Peering | Plan   |Bandwidth |v4   |v6   |
+Autopeer URL & Lookong Glass     | Location                     | Open Peering | Plan   |Bandwidth |IPv4 |IPv6 |
 ---------------------------------|------------------------------|--------------|--------|--------- |-----|-----|
 https://dn42jp.azurewebsites.net |Japan Tokyo                   | O            | F1     | 2mbps    | Δ   | X   |
 https://dn42ch.azurewebsites.net |Switzerland Zürich            | O            | F1     | 2mbps    | Δ   | X   |
