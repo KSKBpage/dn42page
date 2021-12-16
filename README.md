@@ -51,8 +51,8 @@ This two networks are fully isolated except they are peering with eBGP.
 
 Autopeer URL & Lookong Glass     | Location                     | Open Peering | Plan    |Bandwidth|IPv4 |IPv6 |
 ---------------------------------|------------------------------|--------------|---------|---------|-----|-----|
-https://kskb.pages.dev/tw        | Taiwan                       | O            | My PC   | 100mbps | O[^DynamicIP]  | O[^DynamicIP]  |
-https://kskb.pages.dev/de        | Germany                      | O            | HZ-FREE | 100mbps | Δ[^Nport]  | Δ   |
+https://kskb42.pages.dev/tw        | Taiwan                       | O            | My PC   | 100mbps | O[^DynamicIP]  | O[^DynamicIP]  |
+https://kskb42.pages.dev/de        | Germany                      | O            | HZ-FREE | 100mbps | Δ[^Nport]  | Δ   |
 
 
 ### Route Propagation Graph
