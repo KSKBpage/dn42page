@@ -73,7 +73,8 @@ https://kskb42.pages.dev/de      | Germany                      | O            |
 
 ## Kusakabe-Neo (AS4201271111)
 * ASN : `AS4201271111`
-* **ICMP packets are filtered** by the service provider, **use tcpping** to measure the latency
+* ISP: Azure App Service
+* **ICMP packets are filtered** by the Azure, **use tcpping** to measure the latency
 * Architecture: [RootlessRouter-UML](https://github.com/KusakabeSi/RootlessRouter-UML/)
 * Server status: https://42status.kskb.eu.org/
 
