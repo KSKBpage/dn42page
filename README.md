@@ -70,7 +70,7 @@ Autopeer URL & Lookong Glass     | Location                     | Open Peering |
 ---------------------------------|------------------------------|--------------|---------|---------|-----|-----|
 https://kskb42.pages.dev/tw      | Taiwan                       | O            | My PC   | 100mbps | O[^DynamicIP]  | O[^DynamicIP]  |
 https://kskb42.pages.dev/de      | Germany                      | O            | HZ-FREE | 500mbps | Δ[^Nport]  | Δ   |
-https://kskb42.pages.dev/de      | United States                | Δ[^NoyesIX]  | NoyesIX | 100mbps | X  | O   |
+https://noyes42.kskb.eu.org      | United States                | Δ[^NoyesIX]  | NoyesIX | 100mbps | X  | O   |
 
 ## Kusakabe-Neo (AS4201271111)
 * ASN : `AS4201271111`
