@@ -68,9 +68,9 @@ X| Not accessable
 
 Autopeer URL & Lookong Glass     | Location                     | Open Peering | Plan    |Bandwidth|IPv4 |IPv6 |
 ---------------------------------|------------------------------|--------------|---------|---------|-----|-----|
-https://kskb42.pages.dev/tw      | Taiwan                       | O            | My PC   | 100mbps | O[^DynamicIP]  | O[^DynamicIP]  |
-https://kskb42.pages.dev/de      | Germany                      | O            | HZ-FREE | 500mbps | Δ[^Nport]  | Δ   |
-https://noyes42.kskb.eu.org      | United States                | Δ[^NoyesIX]  | NoyesIX | 100mbps | X  | O   |
+https://kskb42.pages.dev/tw      | Taiwan                       | O            | My PC   | 100mbps | O[^dynamicip]  | O[^dynamicip]  |
+https://kskb42.pages.dev/de      | Germany                      | O            | HZ-FREE | 500mbps | Δ[^limitedport]  | Δ   |
+https://noyes42.kskb.eu.org      | United States                | Δ[^noyexix]  | NoyesIX | 100mbps | X  | O   |
 
 ## Kusakabe-Neo (AS4201271111)
 * ASN : `AS4201271111`
@@ -104,6 +104,6 @@ This is an example crontab which cam resolve the ip periodically to prevent lost
 */10 * * * * wg set dn42-kskb peer "{wireguard public key}" endpoint "{peer wg endpoint}"
 ```
 
-[^DynamicIP]: Dynamic IP
-[^Nport]: Only 9 external port available in my side, contact me if you don't have external port
-[^NoyesIX]: Accept peering via IX only, please join [NoiesIX](https://piao.nicholas.wang/) to peer with me
+[^dynamicip]: Dynamic IP on my side, please set a cronjob to prevent lost connection after my IP chabged.
+[^limitedport]: Only 9 external port available in my side, contact me if you don't have external port
+[^noyexix]: Peering via IX only, please join [NoiesIX](https://piao.nicholas.wang/) to peer with me!
