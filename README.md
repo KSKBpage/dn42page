@@ -70,6 +70,7 @@ Autopeer URL & Lookong Glass     | Location                     | Open Peering |
 ---------------------------------|------------------------------|--------------|---------|---------|-----|-----|
 https://kskb42.pages.dev/tw      | Taiwan                       | O            | My PC   | 100mbps | O[^DynamicIP]  | O[^DynamicIP]  |
 https://kskb42.pages.dev/de      | Germany                      | O            | HZ-FREE | 500mbps | Δ[^Nport]  | Δ   |
+https://kskb42.pages.dev/de      | United States                | Δ[^NoyesIX]  | NoyesIX | 100mbps | X  | O   |
 
 ## Kusakabe-Neo (AS4201271111)
 * ASN : `AS4201271111`
@@ -105,3 +106,4 @@ This is an example crontab which cam resolve the ip periodically to prevent lost
 
 [^DynamicIP]: Dynamic IP
 [^Nport]: Only 9 external port available in my side, contact me if you don't have external port
+[^NoyesIX]: Accept peering via IX only, please join [NoiesIX](https://piao.nicholas.wang/) to peer with me
