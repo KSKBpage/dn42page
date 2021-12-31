@@ -99,7 +99,7 @@ https://dn42nl.azurewebsites.net |Netherlands                   | O            |
 
 ## Dynamic IP
 
-This is an example crontab which cam resolve the ip periodically to prevent lost connection after dynamic chabged.
+This is an example crontab which cam resolve the ip periodically to prevent lost connection after mu IP dynamic changed.
 ```
 */10 * * * * wg set dn42-kskb peer "{wireguard public key}" endpoint "{peer wg endpoint}"
 ```
