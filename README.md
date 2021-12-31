@@ -104,6 +104,6 @@ This is an example crontab which cam resolve the ip periodically to prevent lost
 */10 * * * * wg set dn42-kskb peer "{wireguard public key}" endpoint "{peer wg endpoint}"
 ```
 
-[^dynamicip]: Dynamic IP on my side, please set a cronjob to prevent lost connection after my IP chabged.
+[^dynamicip]: Dynamic IP on my side, please set a cronjob to prevent lost connection after my IP changed.
 [^limitedport]: Only 9 external port available in my side, contact me if you don't have external port
 [^noyexix]: Peering via IX only, please join [NoiesIX](https://piao.nicholas.wang/) to peer with me!
