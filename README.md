@@ -1,5 +1,5 @@
 # Peer with Kusakabe Si
-This page provides the information to get started on peering with the `Kusakabe-Neo` and `KSKB-AS` network
+This page provides the information to get started on peering with the `KSKB-NETWORK` and `Kusakabe-Neo`  network
 
 ## What is DN42?
 
@@ -35,7 +35,7 @@ Wireguard only
 
 ## Topology
 
-I operates 2 networks `KSKB-AS(AS4242421817)` and `Kusakabe-Neo(AS4201271111)` which uses different architecture and host at different location.  
+I operates 2 networks `KSKB-NETWORK(AS4242421817)` and `Kusakabe-Neo(AS4201271111)` which uses different architecture and host at different location.  
 This two networks are fully isolated except they are peering with eBGP.
 
 ![image](https://user-images.githubusercontent.com/73118488/141317915-985c2c12-4cad-4956-a622-67123023de5d.png)
@@ -62,7 +62,7 @@ X| Not accessable
 * Multiprotocol BGP: `supported`
 * Extended next hop: `supported`
 
-## KSKB-AS (AS4242421817)
+## KSKB-NETWORK (AS4242421817)
 * ASN : `AS4242421817`
 * Architecture: Normal linux distribution.
 
