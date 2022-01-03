@@ -64,6 +64,7 @@ X| Not accessable
 
 ## KSKB-NETWORK (AS4242421817)
 * ASN : `AS4242421817`
+* Routing policy: Cold-potato Routing
 * Architecture: Normal linux distribution.
 
 Autopeer URL & Lookong Glass     | Location                     | Open Peering | Plan    |Bandwidth|IPv4 |IPv6 |
@@ -74,6 +75,7 @@ https://noyes42.kskb.eu.org      | United States                | Δ[^noyexix]  
 
 ## Kusakabe-Neo (AS4201271111)
 * ASN : `AS4201271111`
+* Routing policy: Hot-potato Routing
 * ISP: Azure App Service
 * **ICMP packets are filtered** by the Azure, **use tcpping** to measure the latency
 * Architecture: [RootlessRouter-UML](https://github.com/KusakabeSi/RootlessRouter-UML/)
