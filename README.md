@@ -103,7 +103,7 @@ https://dn42nl.azurewebsites.net |Netherlands                   | O            |
 
 This is an example crontab which cam resolve the ip periodically to prevent lost connection after my IP dynamic changed.
 ```
-*/10 * * * * wg set dn42-kskb peer "{wireguard public key}" endpoint "{peer wg endpoint}"
+*/10 * * * * wg set dn42-kskb peer "{peer public key}" endpoint "{peer wg endpoint}"
 ```
 
 [^dynamicip]: Dynamic IP on my side, please set a cronjob to prevent lost connection after my IP changed.
