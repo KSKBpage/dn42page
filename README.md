@@ -35,7 +35,8 @@ Wireguard only
 
 ## Topology
 
-I operates 2 networks `KSKB-NETWORK(AS4242421817)` and `Kusakabe-Neo(AS4201271111)` which uses different architecture and host at different location.  
+I operates 2 networks `KSKB-NETWORK(AS4242421817)` and `Kusakabe-Neo(AS4201271111)` which use different architecture and different routing policy.  
+I use two different ASN for them for batter isolation, both network are open for peering, even in same node.  
 This two networks are fully isolated except they are peering with eBGP.
 
 ![image](https://user-images.githubusercontent.com/73118488/141317915-985c2c12-4cad-4956-a622-67123023de5d.png)
