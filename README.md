@@ -40,7 +40,6 @@ Wireguard only
 * For example, they use different architecture and different routing policy.  
 * I use two ASN for them for batter isolation, welcome to peer with both my network!  
 
-
 ![image](https://user-images.githubusercontent.com/73118488/141317915-985c2c12-4cad-4956-a622-67123023de5d.png)
 
 * [Etherguard](https://github.com/KusakabeSi/EtherGuard-VPN)
@@ -62,19 +61,22 @@ O| This node have public IP. <br>You can peer with this node even if you are beh
 X| Not accessable
 
 ## BGP support
-* Multiprotocol BGP: `supported`
-* Extended next hop: `supported`
+Peer with Multiprotocol BGP and Extended next hop over IPv6 link local address is preffered
+
+* Multiprotocol BGP: `preffered`
+* Extended next hop: `preffered`
 
 ## KSKB-NETWORK (AS4242421817)
 * ASN : `AS4242421817`
 * Routing policy: Cold-potato Routing
 * Architecture: Normal linux distribution.
 
-Autopeer URL & Lookong Glass     | Location                     | Open Peering | Plan    |Bandwidth|IPv4 |IPv6 |
----------------------------------|------------------------------|--------------|---------|---------|-----|-----|
-https://kskb42.pages.dev/tw      | Taiwan                       | O            | My PC   | 100mbps | O[^dynamicip]  | O[^dynamicip]  |
-https://kskb42.pages.dev/de      | Germany                      | O            | HZ-FREE | 500mbps | Δ[^limitedport]  | Δ   |
-https://noyes42.kskb.eu.org      | United States                | Δ IX only[^noyexix]  | NoyesIX[^noyexix] | 100mbps | X  | X   |
+Autopeer URL & Lookong Glass     | Location                     | Open Peering | Hosting                            |Bandwidth|IPv4            |IPv6            |
+---------------------------------|------------------------------|--------------|------------------------------------|---------|----------------|----------------|
+https://kskb42.pages.dev/tw      | Taiwan                       | O            | My PC                              | 100mbps | O[^dynamicip]  | O[^dynamicip]  |
+https://kskb42.pages.dev/de      | Germany                      | O            | [Hertz](https://hertz.zone/)       | 1Gbps   | Δ[^limitedport]| Δ              |
+https://kskb42.pages.dev/usfmt   | United States                | O            | [SkyWolf](https://skywolf.cloud/)  | 1Gbps   | O              | O              |
+https://noyes42.kskb.eu.org      | United States                | Δ IX only[^noyexix]  | NoyesIX[^noyexix]          | 100mbps | X              | X              |
 
 ## Kusakabe-Neo (AS4201271111)
 * ASN : `AS4201271111`
