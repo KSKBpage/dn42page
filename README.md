@@ -63,8 +63,8 @@ X| Not accessable
 ## BGP support
 Peer with Multiprotocol BGP and Extended next hop over IPv6 link local address is preffered
 
-* Multiprotocol BGP: `preffered`
-* Extended next hop: `preffered`
+* Multiprotocol BGP: `supported`
+* Extended next hop: `supported`
 
 ## KSKB-NETWORK (AS4242421817)
 * ASN : `AS4242421817`
