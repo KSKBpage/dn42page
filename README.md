@@ -71,12 +71,12 @@ Peer with Multiprotocol BGP and Extended next hop over IPv6 link local address i
 * Routing policy: Cold-potato Routing
 * Architecture: Normal linux distribution.
 
-Autopeer URL & Lookong Glass     | Location                     | Open Peering | Hosting                            |Bandwidth|IPv4            |IPv6            |
----------------------------------|------------------------------|--------------|------------------------------------|---------|----------------|----------------|
-https://kskb42.pages.dev/tw      | Taiwan                       | O            | My PC                              | 100mbps | O[^dynamicip]  | O[^dynamicip]  |
-https://kskb42.pages.dev/de      | Germany                      | O            | [Hertz](https://hertz.zone/)       | 1Gbps   | Δ[^limitedport]| Δ              |
-https://kskb42.pages.dev/usfmt   | United States                | O            | [SkyWolf](https://skywolf.cloud/)  | 1Gbps   | O              | O              |
-https://noyes42.kskb.eu.org      | United States                | Δ IX only[^noyexix]  | NoyesIX[^noyexix]          | 100mbps | X              | X              |
+Autopeer URL & Lookong Glass     | Location                     | Open Peering         | Hosting                                  |Bandwidth|IPv4            |IPv6            |
+---------------------------------|------------------------------|----------------------|------------------------------------------|---------|----------------|----------------|
+https://kskb42.pages.dev/tw      | Taiwan                       | O                    | My PC                                    | 100mbps | O[^dynamicip]  | O[^dynamicip]  |
+https://kskb42.pages.dev/de      | Germany                      | O                    | [Hertz Technology](https://hertz.zone/)  | 1Gbps   | Δ[^limitedport]| Δ              |
+https://kskb42.pages.dev/usfmt   | United States                | O                    | [SkyWolf Cloud](https://skywolf.cloud/)  | 1Gbps   | O              | O              |
+https://noyes42.kskb.eu.org      | United States                | Δ IX[^noyexix] only  | [NoiesIX](https://piao.nicholas.wang/)   | 100mbps | X              | X              |
 
 ## Kusakabe-Neo (AS4201271111)
 * ASN : `AS4201271111`
