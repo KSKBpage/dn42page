@@ -75,7 +75,7 @@ Autopeer URL & Lookong Glass     | Location                     | Open Peering  
 ---------------------------------|------------------------------|----------------------|------------------------------------------|---------|----------------|----------------|
 https://kskb42.pages.dev/tw      | Taiwan                       | O                    | My PC                                    | 100mbps | O[^dynamicip]  | O[^dynamicip]  |
 https://kskb42.pages.dev/de      | Germany                      | O                    | [Hertz Technology](https://hertz.zone/)  | 1Gbps   | Δ[^limitedport]| O              |
-https://kskb42.pages.dev/usfmt   | United States                | O                    | [Skywolf Cloud](https://skywolf.cloud/)  | 1Gbps   | O              | O              |
+https://kskb42.pages.dev/usfmt   | United States Fremont        | O                    | [Skywolf Cloud](https://skywolf.cloud/)  | 1Gbps   | O              | O              |
 https://noyes42.kskb.eu.org      | United States                | Δ IX[^noyexix] only  | [NoiesIX](https://piao.nicholas.wang/)   | 100mbps | X              | X              |
 
 ## Kusakabe-Neo (AS4201271111)
