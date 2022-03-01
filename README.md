@@ -74,9 +74,10 @@ Peer with Multiprotocol BGP and Extended next hop over IPv6 link local address i
 Autopeer URL & Lookong Glass     | Location                     | Open Peering         | Hosting                                  |Bandwidth|IPv4            |IPv6            |
 ---------------------------------|------------------------------|----------------------|------------------------------------------|---------|----------------|----------------|
 https://kskb42.pages.dev/tw      | Taiwan                       | O                    | My PC                                    | 100mbps | O[^dynamicip]  | O[^dynamicip]  |
+https://kskb42.pages.dev/jp      | Japan                        | O                    | [CNTUG Infra Labs](https://cloudnative.tw/)| 1Gbps | O              | O              |
 https://kskb42.pages.dev/de      | Germany                      | O                    | [Hertz Technology](https://hertz.zone/)  | 1Gbps   | Δ[^limitedport]| O              |
 https://kskb42.pages.dev/usfmt   | United States Fremont        | O                    | [Skywolf Cloud](https://skywolf.cloud/)  | 1Gbps   | O              | O              |
-https://noyes42.kskb.eu.org      | United States                | Δ IX[^noyexix] only  | [NoiesIX](https://piao.nicholas.wang/)   | 100mbps | X              | X              |
+https://cnnj42.kskb.eu.org       | China Nanjing                | Δ (Manual Peering)   | Sunyz                                    | 50Mbps  | O              | X              |
 
 ## Kusakabe-Neo (AS4201271111)
 * ASN : `AS4201271111`
