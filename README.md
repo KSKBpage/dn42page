@@ -77,9 +77,9 @@ Peer with Multiprotocol BGP and Extended next hop over IPv6 link local address i
 
 Autopeer URL & Lookong Glass     | Location                     | Open Peering  | Hosting                                  |Bandwidth|IPv4            |IPv6            |
 ---------------------------------|------------------------------|---------------|------------------------------------------|---------|----------------|----------------|
-https://tw42.pages.dev/tw        | Taiwan                       | O             | My PC                                    | 100mbps | O[^dynamicip]  | O[^dynamicip]  |
-https://jp42.pages.dev/jp        | Japan                        | O             | [CNTUG Infra Labs](https://cloudnative.tw/)| 1Gbps | O              | O              |
-https://de42.pages.dev/de        | Germany                      | O             | [Hertz Technology](https://hertz.zone/)  | 1Gbps   | Δ[^limitedport]| O              |
+https://tw42.kskb.eu.org         | Taiwan                       | O             | My PC                                    | 100mbps | O[^dynamicip]  | O[^dynamicip]  |
+https://jp42.kskb.eu.org         | Japan                        | O             | [CNTUG Infra Labs](https://cloudnative.tw/)| 1Gbps | O              | O              |
+https://de42.kskb.eu.org         | Germany                      | O             | [Hertz Technology](https://hertz.zone/)  | 1Gbps   | Δ[^limitedport]| O              |
 https://usfmt42.kskb.eu.org      | United States Fremont        | O             | [Skywolf Cloud](https://skywolf.cloud/)  | 1Gbps   | O              | O              |
 https://cnjs42.kskb.eu.org       | China Jiangsu                | Δ (Manual)    | Sunyz's Machine                          | 50Mbps  | O              | X              |
 
