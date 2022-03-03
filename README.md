@@ -70,6 +70,10 @@ Peer with Multiprotocol BGP and Extended next hop over IPv6 link local address i
 * ASN : `AS4242421817`
 * Routing policy: Cold-potato Routing
 * Architecture: Normal linux distribution.
+* Tunnel IPv4: 172.22.77.47
+* Tunnel IPv6: fd28:cb8f:4c92:7777::
+* Tunnel IPv4 Link local: 169.254.42.1
+* Tunnel IPv6 Link local: fe80::1817
 
 Autopeer URL & Lookong Glass     | Location                     | Open Peering         | Hosting                                  |Bandwidth|IPv4            |IPv6            |
 ---------------------------------|------------------------------|----------------------|------------------------------------------|---------|----------------|----------------|
