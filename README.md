@@ -81,7 +81,7 @@ https://kskb42.pages.dev/tw      | Taiwan                       | O             
 https://kskb42.pages.dev/jp      | Japan                        | O                    | [CNTUG Infra Labs](https://cloudnative.tw/)| 1Gbps | O              | O              |
 https://kskb42.pages.dev/de      | Germany                      | O                    | [Hertz Technology](https://hertz.zone/)  | 1Gbps   | Δ[^limitedport]| O              |
 https://kskb42.pages.dev/usfmt   | United States Fremont        | O                    | [Skywolf Cloud](https://skywolf.cloud/)  | 1Gbps   | O              | O              |
-https://cnnj42.kskb.eu.org       | China Nanjing                | Δ (Manual Peering)   | Sunyz                                    | 50Mbps  | O              | X              |
+https://cnnj42.kskb.eu.org       | China Nanjing                | Δ (Manual Peering)   | Sunyz's VM                               | 50Mbps  | O              | X              |
 
 ## Kusakabe-Neo (AS4201271111)
 * ASN : `AS4201271111`
