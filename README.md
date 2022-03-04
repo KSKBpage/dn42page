@@ -70,18 +70,14 @@ Peer with Multiprotocol BGP and Extended next hop over IPv6 link local address i
 * ASN : `AS4242421817`
 * Routing policy: Cold-potato Routing
 * Architecture: Normal linux distribution.
-* Tunnel IPv4: 172.22.77.47
-* Tunnel IPv6: fd28:cb8f:4c92:7777::
-* Tunnel IPv4 Link local: 169.254.42.1
-* Tunnel IPv6 Link local: fe80::1817
 
-Autopeer URL & Lookong Glass     | Location                     | Open Peering  | Hosting                                  |Bandwidth|IPv4            |IPv6            |
----------------------------------|------------------------------|---------------|------------------------------------------|---------|----------------|----------------|
-https://tw42.kskb.eu.org         | Taiwan                       | O             | My PC                                    | 100mbps | O[^dynamicip]  | O[^dynamicip]  |
-https://jp42.kskb.eu.org         | Japan                        | O             | [CNTUG Infra Labs](https://cloudnative.tw/)| 1Gbps | O              | O              |
-https://de42.kskb.eu.org         | Germany                      | O             | [Hertz Technology](https://hertz.zone/)  | 1Gbps   | Δ[^limitedport]| O              |
-https://usfmt42.kskb.eu.org      | United States Fremont        | O             | [Skywolf Cloud](https://skywolf.cloud/)  | 1Gbps   | O              | O              |
-https://cnjs42.kskb.eu.org       | China Jiangsu                | Δ (Manual)    | Sunyz's Machine                          | 50Mbps  | O              | X              |
+| Location               | Peering                                         | Looking Glass                        | Hosting                                    |Bandwidth|IPv4            |IPv6            |
+|------------------------|-------------------------------------------------|--------------------------------------|--------------------------------------------|---------|----------------|----------------|
+| Taiwan                 | O [Auto](https://tw42.kskb.eu.org/autopeer/)    | [Link](https://tw42.kskb.eu.org/)    | My PC                                      | 100mbps | O[^dynamicip]  | O[^dynamicip]  |
+| Japan                  | O [Auto](https://jp42.kskb.eu.org/autopeer/)    | [Link](https://jp42.kskb.eu.org/)    | [CNTUG Infra Labs](https://cloudnative.tw/)| 1Gbps   | O              | O              |
+| Germany                | O [Auto](https://de42.kskb.eu.org/autopeer/)    | [Link](https://de42.kskb.eu.org/)    | [Hertz Technology](https://hertz.zone/)    | 1Gbps   | Δ[^limitedport]| O              |
+| United States Fremont  | O [Auto](https://usfmt42.kskb.eu.org/autopeer/) | [Link](https://usfmt42.kskb.eu.org/) | [Skywolf Cloud](https://skywolf.cloud/)    | 1Gbps   | O              | O              |
+| China Jiangsu          | Δ (Manual)                                      | [Link](https://cnjs42.kskb.eu.org/)  | Sunyz's Machine                            | 50Mbps  | O              | X              |
 
 ## Kusakabe-Neo (AS4201271111)
 * ASN : `AS4201271111`
