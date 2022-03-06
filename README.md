@@ -71,13 +71,13 @@ Peer with Multiprotocol BGP and Extended next hop over IPv6 link local address i
 * Routing policy: Cold-potato Routing
 * Architecture: Normal linux distribution.
 
-| Location               | Peering                                         | Looking Glass                        | Hosting                                    |Bandwidth|IPv4            |IPv6            |
-|------------------------|-------------------------------------------------|--------------------------------------|--------------------------------------------|---------|----------------|----------------|
-| Taiwan                 | O [Auto](https://tw42.kskb.eu.org/autopeer/)    | [Link](https://tw42.kskb.eu.org/)    | My PC                                      | 100mbps | O[^dynamicip]  | O[^dynamicip]  |
-| Japan                  | O [Auto](https://jp42.kskb.eu.org/autopeer/)    | [Link](https://jp42.kskb.eu.org/)    | [CNTUG Infra Labs](https://cloudnative.tw/)| 1Gbps   | O              | O              |
-| Germany                | O [Auto](https://de42.kskb.eu.org/autopeer/)    | [Link](https://de42.kskb.eu.org/)    | [Hertz Technology](https://hertz.zone/)    | 1Gbps   | Δ[^limitedport]| O              |
-| United States Fremont  | O [Auto](https://usfmt42.kskb.eu.org/autopeer/) | [Link](https://usfmt42.kskb.eu.org/) | [Skywolf Cloud](https://skywolf.cloud/)    | 1Gbps   | O              | O              |
-| China Jiangsu          | Δ (Manual)                                      | [Link](https://cnjs42.kskb.eu.org/)  | Sunyz's Machine                            | 50Mbps  | O              | X              |
+Autopeer URL & Lookong Glass     | Location                     | Open Peering  | Hosting                                  |Bandwidth|IPv4            |IPv6            |
+---------------------------------|------------------------------|---------------|------------------------------------------|---------|----------------|----------------|
+https://kskb42.pages.dev/tw      | Taiwan                       | O             | My PC                                    | 100mbps | O[^dynamicip]  | O[^dynamicip]  |
+https://kskb42.pages.dev/jp      | Japan                        | O             | [CNTUG Infra Labs](https://cloudnative.tw/)| 1Gbps | O              | O              |
+https://kskb42.pages.dev/de      | Germany                      | O             | [Hertz Technology](https://hertz.zone/)  | 1Gbps   | Δ[^limitedport]| O              |
+https://kskb42.pages.dev/usfmt   | United States Fremont        | O             | [Skywolf Cloud](https://skywolf.cloud/)  | 1Gbps   | O              | O              |
+https://kskb42.pages.dev/cnjs    | China Jiangsu                | Δ (Manual)    | Sunyz's Machine                          | 50Mbps  | O              | X              |
 
 ## Kusakabe-Neo (AS4201271111)
 * ASN : `AS4201271111`
