@@ -75,6 +75,9 @@ https://kskb42.pages.dev/de      | Germany                      | O             
 https://kskb42.pages.dev/usfmt   | United States Fremont        | O             | [Skywolf Cloud](https://skywolf.cloud/)  | 1Gbps   | O              | O              |
 https://kskb42.pages.dev/cnjs    | China Jiangsu                | Δ (Manual)    | Sunyz's Machine                          | 50Mbps  | O              | X              |
 
+### Route Propagation Graph for KSKB-Network (AS4242421817)
+[![RPG1817](https://bgp-api.strexp.net/as_graph/AS4242421817)](https://bgp42.strexp.net/asInfo/4242421817)
+
 ## Kusakabe-Neo (AS4201271111)
 * ASN : `AS4201271111`
 * Routing policy: Hot-potato Routing
@@ -99,9 +102,6 @@ https://dn42ch.azurewebsites.net |Switzerland Zürich            | O            
 https://dn42nl.azurewebsites.net |Netherlands                   | O            | F1     | 2mbps    | Δ   | X   |       
 https://dn42au.azurewebsites.net |Australia Canberra            | O            | F1     | 2mbps    | Δ   | X   |
 https://dn42uae.azurewebsites.net|United Arab Emirates Dubai    | O            | F1     | 2mbps    | Δ   | X   |
-
-### Route Propagation Graph for KSKB-AS (AS4242421817)
-[![RPG1817](https://bgp-api.strexp.net/as_graph/AS4242421817)](https://bgp42.strexp.net/asInfo/4242421817)
 
 ### Route Propagation Graph for Kusakabe-Neo (AS4201271111)
 [![RPG1111](https://bgp-api.strexp.net/as_graph/AS4201271111)](https://bgp42.strexp.net/asInfo/4201271111)
