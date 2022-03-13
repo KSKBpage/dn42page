@@ -1,5 +1,10 @@
-# Peer with Kusakabe Si
+# Peer with Kusakabe Shi
 This page provides the information to get started on peering with the `KSKB-NETWORK` and `Kusakabe-Neo`  network
+
+I operates 2 networks `KSKB-NETWORK(AS4242421817)` and `Kusakabe-Neo(AS4201271111)`  
+They are fully isolated except peering with eBGP to help me experiment different things.  
+For example, they use different architecture and different routing policy.  
+I use two ASN for them for batter isolation, welcome to peer with **both** my network!  
 
 ## What is DN42?
 
@@ -12,7 +17,7 @@ Network addresses are assigned in the `172.20.0.0/14` and `10.0.0.0/8` range and
 ## Peering Requests
 
 If you’d like to peer with me, you can...
-1. Contact me on telegram https://t.me/KusakabeSi
+1. Contact me on telegram https://t.me/KusakabeShi
 2. Contact me on irc nickname `kskb`
 3. Contact me via email `dn42@kskb.eu.org`
 4. Use AutoPeer service listed below
@@ -29,20 +34,6 @@ There are 2 **additional requirement** for `Kusakabe-Neo(AS4201271111)`
 1. You must have a public IPv4 endpoint on your side.
 2. You must have at least two peerings already established with other DN42 networks
 
-### Supported Tunnel Types
-
-Wireguard only
-
-## Topology
-
-* I operates 2 networks `KSKB-NETWORK(AS4242421817)` and `Kusakabe-Neo(AS4201271111)`
-* They are fully isolated except peering with eBGP to help me experiment different things.
-* For example, they use different architecture and different routing policy.  
-* I use two ASN for them for batter isolation, welcome to peer with both my network!  
-
-![image](https://user-images.githubusercontent.com/73118488/141317915-985c2c12-4cad-4956-a622-67123023de5d.png)
-
-* [Etherguard](https://github.com/KusakabeSi/EtherGuard-VPN)
 
 ## Symbol
 
@@ -63,13 +54,18 @@ X| Not accessable
 ## BGP support
 Peer with Multiprotocol BGP and Extended next hop over IPv6 link local address is preffered
 
-* Multiprotocol BGP: `supported`
-* Extended next hop: `supported`
+* Multiprotocol BGP: `supported and preferred`
+* Extended next hop: `supported and preferred`
 
 ## KSKB-NETWORK (AS4242421817)
 * ASN : `AS4242421817`
 * Routing policy: Cold-potato Routing
 * Architecture: Normal linux distribution.
+* Supported Tunnel Types
+  * Wireguard
+  * OpenVPN
+* Topology:
+  * ![image](https://user-images.githubusercontent.com/73118488/158076210-81c5a284-6159-4ea7-9bfd-b13b72f38cb5.png)  
 
 Autopeer URL & Lookong Glass     | Location                     | Open Peering  | Hosting                                  |Bandwidth|IPv4            |IPv6            |
 ---------------------------------|------------------------------|---------------|------------------------------------------|---------|----------------|----------------|
@@ -86,6 +82,11 @@ https://kskb42.pages.dev/cnjs    | China Jiangsu                | Δ (Manual)   
 * **ICMP packets are filtered** by the Azure, **use tcpping** to measure the latency
 * Architecture: [RootlessRouter-UML](https://github.com/KusakabeSi/RootlessRouter-UML/)
 * Server status: https://42status.kskb.eu.org/
+* Supported Tunnel Types
+  * Wireguard
+* Topology:
+  * ![image](https://user-images.githubusercontent.com/73118488/158076242-0bbfaea6-b71e-4deb-a4d4-e92662ac4541.png)
+  * [Etherguard](https://github.com/KusakabeSi/EtherGuard-VPN)
 
 Autopeer URL & Lookong Glass     | Location                     | Open Peering | Plan   |Bandwidth |IPv4 |IPv6 |
 ---------------------------------|------------------------------|--------------|--------|--------- |-----|-----|
