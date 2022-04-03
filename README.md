@@ -67,13 +67,14 @@ Peer with Multiprotocol BGP and Extended next hop over IPv6 link local address i
 * Topology:
   * ![image](https://user-images.githubusercontent.com/73118488/158076210-81c5a284-6159-4ea7-9bfd-b13b72f38cb5.png)  
 
-Autopeer URL & Lookong Glass     | Location                     | Open Peering  | Hosting                                  |Bandwidth|IPv4            |IPv6            |
----------------------------------|------------------------------|---------------|------------------------------------------|---------|----------------|----------------|
-https://kskb42.pages.dev/tw      | Taiwan                       | O             | PC at my home                            | 100mbps | O[^dynamicip]  | O[^dynamicip]  |
-https://kskb42.pages.dev/jp      | Japan                        | O             | [CNTUG Infra Labs](https://cloudnative.tw/)| 1Gbps | O              | O              |
-https://kskb42.pages.dev/de      | Germany                      | O             | [Hertz Technology](https://hertz.zone/)  | 1Gbps   | Δ[^limitedport]| O              |
-https://kskb42.pages.dev/usfmt   | United States Fremont        | O             | [Skywolf Cloud](https://skywolf.cloud/)  | 1Gbps   | O              | O              |
-https://kskb42.pages.dev/cnjs    | China Jiangsu                | Δ (Manual)    | Sunyz's Machine                          | 50Mbps  | O              | X              |
+Autopeer URL & Lookong Glass     | Location                  |Open Peering| Hosting                                  |Bandwidth|IPv4            |IPv6            |
+---------------------------------|---------------------------|------------|------------------------------------------|---------|----------------|----------------|
+https://kskb42.pages.dev/tw      | Taiwan                    | O          | PC at my home                            | 100mbps | O[^dynamicip]  | O[^dynamicip]  |
+https://kskb42.pages.dev/jp      | Japan                     | O          | [CNTUG Infra Labs](https://cloudnative.tw/)| 1Gbps | O              | O              |
+https://kskb42.pages.dev/hk      | Hong Kong                 | O          | Licson's Machine                         | 1Gbps   | O              | O              |
+https://kskb42.pages.dev/de      | Germany                   | O          | [Hertz Technology](https://hertz.zone/)  | 1Gbps   | Δ[^limitedport]| O              |
+https://kskb42.pages.dev/usfmt   | United States Fremont     | O          | [Skywolf Cloud](https://skywolf.cloud/)  | 1Gbps   | O              | O              |
+https://kskb42.pages.dev/cnjs    | China Jiangsu             | Δ (Manual) | Sunyz's Machine                          | 50Mbps  | O              | X              |
 
 ### Route Propagation Graph for KSKB-Network (AS4242421817)
 [![RPG1817](https://bgp-api.strexp.net/as_graph/AS4242421817)](https://bgp42.strexp.net/asInfo/4242421817)
