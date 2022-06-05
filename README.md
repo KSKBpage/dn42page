@@ -73,6 +73,7 @@ https://kskb42.pages.dev/tw      | Taiwan                | O          | PC at my
 https://kskb42.pages.dev/jp      | Japan                 | O          | [CNTUG Infra Labs](https://cloudnative.tw/)| 1Gbps   | O              | O              |
 https://kskb42.pages.dev/hk      | Hong Kong             | O          | Licson's Machine                           | 1Gbps   | O              | O              |
 https://kskb42.pages.dev/de      | Germany               | O          | [Hertz Technology](https://hertz.zone/)    | 1Gbps   | Δ[^limitedport]| O              |
+https://kskb42.pages.dev/de2     | Germany               | O          | MOEIX                                      | 1Gbps   | O              | O              |
 https://kskb42.pages.dev/usfmt   | United States Fremont | O          | [Skywolf Cloud](https://skywolf.cloud/)    | 1Gbps   | O              | O              |
 https://kskb42.pages.dev/cnjs    | China Jiangsu         | Δ (Manual) | Sunyz's Machine                            | 50Mbps  | O              | X              |
 
