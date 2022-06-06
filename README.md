@@ -69,7 +69,7 @@ Peer with Multiprotocol BGP and Extended next hop over IPv6 link local address i
 
 Autopeer URL & Lookong Glass     | Location              |Open Peering| Hosting                                    |Bandwidth|IPv4            |IPv6            |
 ---------------------------------|-----------------------|------------|--------------------------------------------|---------|----------------|----------------|
-https://kskb42.pages.dev/tw      | Taiwan                | O          | PC at my home                              | 100mbps | O[^dynamicip]  | O[^dynamicip]  |
+https://kskb42.pages.dev/tw      | Taiwan                | O          | PC at my home                              | 250mbps | O[^dynamicip]  | O[^dynamicip]  |
 https://kskb42.pages.dev/jp      | Japan                 | O          | [CNTUG Infra Labs](https://cloudnative.tw/)| 1Gbps   | O              | O              |
 https://kskb42.pages.dev/hk      | Hong Kong             | O          | Licson's Machine                           | 1Gbps   | O              | O              |
 https://kskb42.pages.dev/de      | Germany               | O          | [Hertz Technology](https://hertz.zone/)    | 1Gbps   | Δ[^limitedport]| O              |
