@@ -17,6 +17,7 @@ Network addresses are assigned in the `172.20.0.0/14` and `10.0.0.0/8` range and
 ## Peering Requests
 
 If you’d like to peer with me, you can...
+
 1. Contact me on telegram https://t.me/KusakabeShi
 2. Contact me on irc nickname `kskb`
 3. Contact me via email `dn42@kskb.eu.org`
