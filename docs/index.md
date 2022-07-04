@@ -67,7 +67,7 @@ Peer with Multiprotocol BGP and Extended next hop over IPv6 link local address i
   * Wireguard
   * OpenVPN
 * Topology:
-  * ![image](https://user-images.githubusercontent.com/73118488/158076210-81c5a284-6159-4ea7-9bfd-b13b72f38cb5.png)  
+  * ![image](https://user-images.githubusercontent.com/73118488/177179872-593e59b7-1ebb-459b-a6d4-2c448e431cbb.png) 
 
 Autopeer URL & Lookong Glass                          | Location              |Open Peering| Hosting                                    |Bandwidth|IPv4            |IPv6            |
 ------------------------------------------------------|-----------------------|------------|--------------------------------------------|---------|----------------|----------------|
