@@ -12,6 +12,7 @@ nav:
   - KSKB-Net: index.md
   - Connection Infos: info.md
   - Looking Glass: lg.md
+  - Poema Network: https://net.kskb.eu.org
 site_url: https://dn42.kskb.eu.org/
 repo_url: https://github.com/KSKBpage/dn42page
 edit_uri: blob/main/docs/
