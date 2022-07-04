@@ -38,6 +38,7 @@ There are 2 **additional requirement** for `Kusakabe-Neo(AS4201271111)`
 ## Symbol
 
 Generally, the symbol means: 
+
 Symbol  | Means             
 --------|----------
 O| positive  
@@ -45,6 +46,7 @@ O| positive
 X| negative  
 
 In the IP section
+
 Symbol  | Means             
 --------|----------
 O| This node have public IP. <br>You can peer with this node even if you are behind NAT.
@@ -67,20 +69,20 @@ Peer with Multiprotocol BGP and Extended next hop over IPv6 link local address i
 * Topology:
   * ![image](https://user-images.githubusercontent.com/73118488/158076210-81c5a284-6159-4ea7-9bfd-b13b72f38cb5.png)  
 
-Autopeer URL & Lookong Glass     | Location              |Open Peering| Hosting                                    |Bandwidth|IPv4            |IPv6            |
----------------------------------|-----------------------|------------|--------------------------------------------|---------|----------------|----------------|
-https://kskb42.pages.dev/tw      | Taiwan                | O          | PC at my home                              | 250mbps | O[^dynamicip]  | O[^dynamicip]  |
-https://kskb42.pages.dev/jp      | Japan                 | O          | [CNTUG Infra Labs](https://cloudnative.tw/)| 1Gbps   | O              | O              |
-https://kskb42.pages.dev/hk      | Hong Kong             | O          | Licson's Machine                           | 1Gbps   | O              | O              |
-https://kskb42.pages.dev/de      | Germany               | O          | [Hertz Technology](https://hertz.zone/)    | 1Gbps   | Δ[^limitedport]| O              |
-https://kskb42.pages.dev/de2     | Germany               | O          | MOEIX                                      | 1Gbps   | O              | O              |
-https://kskb42.pages.dev/usfmt   | United States Fremont | O          | [Skywolf Cloud](https://skywolf.cloud/)    | 1Gbps   | O              | O              |
-https://kskb42.pages.dev/cnjs    | China Jiangsu         | Δ (Manual) | Sunyz's Machine                            | 50Mbps  | O              | X              |
-https://kskb42.pages.dev/cnsc    | China Sichuan         | Δ (Manual) | [MoeIDC](https://idc.moe/)                 | 500Mbps | O              | X              |
+Autopeer URL & Lookong Glass                          | Location              |Open Peering| Hosting                                    |Bandwidth|IPv4            |IPv6            |
+------------------------------------------------------|-----------------------|------------|--------------------------------------------|---------|----------------|----------------|
+[Taiwan](info/#taiwan)                                | Taiwan                | O          | PC at my home                              | 250mbps | O[^dynamicip]  | O[^dynamicip]  |
+[Japan](info/#japan)                                  | Japan                 | O          | [CNTUG Infra Labs](https://cloudnative.tw/)| 1Gbps   | O              | O              |
+[Hong Kong](info/#hong-kong)                          | Hong Kong             | O          | Licson's Machine                           | 1Gbps   | O              | O              |
+[Germany](info/#germany)                              | Germany               | O          | [Hertz Technology](https://hertz.zone/)    | 1Gbps   | Δ[^limitedport]| O              |
+[Germany2](info/#germany2)                            | Germany               | O          | MOEIX                                      | 1Gbps   | O              | O              |
+[United States Fremont](info/#united-states-fremont)  | United States Fremont | O          | [Skywolf Cloud](https://skywolf.cloud/)    | 1Gbps   | O              | O              |
+[China Jiangsu](info/#china-jiangsu)                  | China Jiangsu         | Δ (Manual) | Sunyz's Machine                            | 50Mbps  | O              | X              |
+[China Sichuan](info/#china-sichuan)                  | China Sichuan         | Δ (Manual) | [MoeIDC](https://idc.moe/)                 | 500Mbps | O              | X              |
 
 
 ### Route Propagation Graph for KSKB-Network (AS4242421817)
-[![RPG1817](https://bgp-api.strexp.net/as_graph/AS4242421817)](https://bgp42.strexp.net/asInfo/4242421817)
+[![RPG1817](https://dn42.tools/pathimg/rt-fd28:cb8f:4c92::_48)](https://dn42.tools/as/4242421817#connectivity)
 
 ## Kusakabe-Neo (AS4201271111)
 * ASN : `AS4201271111`
@@ -108,7 +110,7 @@ https://dn42au.azurewebsites.net |Australia Canberra            | O            |
 https://dn42uae.azurewebsites.net|United Arab Emirates Dubai    | O            | F1     | 2mbps    | Δ   | X   |
 
 ### Route Propagation Graph for Kusakabe-Neo (AS4201271111)
-[![RPG1111](https://bgp-api.strexp.net/as_graph/AS4201271111)](https://bgp42.strexp.net/asInfo/4201271111)
+[![RPG1111](https://dn42.tools/pathimg/rt-fd10:127:e00f:aca::_64)](https://dn42.tools/as/4201271111#connectivity)
 
 ## Dynamic IP
 
@@ -117,5 +119,5 @@ This is an example crontab which cam resolve the ip periodically to prevent lost
 * * * * * wg set dn42-kskb peer "{peer public key}" endpoint "{peer wg endpoint}"
 ```
 
-[^dynamicip]: Dynamic IP on my side, please set a cronjob to prevent lost connection after my IP changed.
+[^dynamicip]: Dynamic IP on my side, please set a cronjob to prevent lost connection after my IP changed.  
 [^limitedport]: Only 9 external port available in my side, contact me if you don't have external port
