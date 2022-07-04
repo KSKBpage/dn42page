@@ -5,6 +5,8 @@ name = "pypi"
 
 [packages]
 mkdocs-bootswatch = "*"
+pymdown-extensions = "*"
+mkdocs-material = "*"
 
 [dev-packages]
 
