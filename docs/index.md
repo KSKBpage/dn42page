@@ -76,7 +76,6 @@ Autopeer URL & Lookong Glass                          | Location              |O
 [Japan](info/#japan)                                  | Japan                 | O          | [CNTUG Infra Labs](https://cloudnative.tw/)| 1Gbps   | O              | O              |
 [Hong Kong](info/#hong-kong)                          | Hong Kong             | O          | Licson's Machine                           | 1Gbps   | O              | O              |
 [Germany](info/#germany)                              | Germany               | O          | [Hertz Technology](https://hertz.zone/)    | 1Gbps   | Δ[^limitedport]| O              |
-[Germany2](info/#germany2)                            | Germany               | O          | MOEIX                                      | 1Gbps   | O              | O              |
 [United States Fremont](info/#united-states-fremont)  | United States Fremont | O          | [Skywolf Cloud](https://skywolf.cloud/)    | 1Gbps   | O              | O              |
 [China Jiangsu](info/#china-jiangsu)                  | China Jiangsu         | Δ (Manual) | Sunyz's Machine                            | 50Mbps  | O              | X              |
 [China Sichuan](info/#china-sichuan)                  | China Sichuan         | Δ (Manual) | [MoeIDC](https://idc.moe/)                 | 500Mbps | O              | X              |
