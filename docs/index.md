@@ -70,18 +70,18 @@ Peer with Multiprotocol BGP and Extended next hop over IPv6 link local address i
 * Topology:
   * ![image](https://user-images.githubusercontent.com/73118488/177179872-593e59b7-1ebb-459b-a6d4-2c448e431cbb.png) 
 
-Autopeer URL & Lookong Glass                          | Location              |Open Peering| Hosting                                    |Bandwidth|IPv4            |IPv6            |
-------------------------------------------------------|-----------------------|------------|--------------------------------------------|---------|----------------|----------------|
-[Taiwan](info/#taiwan)                                | Taiwan                | O          | PC at my home                              | 250Mbps | O[^dynamicip]  | O[^dynamicip]  |
-[Japan](info/#japan)                                  | Japan                 | O          | [CNTUG Infra Labs](https://cloudnative.tw/)| 1Gbps   | O              | O              |
-[Hong Kong](info/#hong-kong)                          | Hong Kong             | O          | Licson's Machine                           | 1Gbps   | O              | O              |
-[Singapore](info/#singapore)                          | Singapore             | O          | Oracle Cloud                               | 500Mbps | O              | O              |
-[Germany](info/#germany)                              | Germany               | O          | HTTPX's Machine                            | 1Gbps   | O              | O              |
-[Netherlands](info/#netherlands)                      | Germany               | O          | LL-IX                                      | 1Gbps   | O              | O              |
-[United States Fremont](info/#united-states-fremont)  | United States Fremont | O          | [Skywolf Cloud](https://skywolf.cloud/)    | 1Gbps   | O              | O              |
-[China Jiangsu](info/#china-jiangsu)                  | China Jiangsu         | Δ (Manual) | Sunyz's Machine                            | 50Mbps  | O              | X              |
-[China Changsha](info/#china-changsha)                | China Sichuan         | Δ (Manual) | MQ's Machine                               | 100Mbps | O              | X              |
-[China Beijing](info/#china-beijing)                  | China Sichuan         | Δ (Manual) | Lama's Machine                             | 40Mbps  | O              | X              |
+Autopeer URL & Lookong Glass                          |Open Peering| Hosting                                    |Bandwidth|IPv4            |IPv6            |
+------------------------------------------------------|------------|--------------------------------------------|---------|----------------|----------------|
+[Taiwan](info/#taiwan)                                | O          | PC at my home                              | 250Mbps | O[^dynamicip]  | O[^dynamicip]  |
+[Japan](info/#japan)                                  | O          | [CNTUG Infra Labs](https://cloudnative.tw/)| 1Gbps   | O              | O              |
+[Hong Kong](info/#hong-kong)                          | O          | Licson's Machine                           | 1Gbps   | O              | O              |
+[Singapore](info/#singapore)                          | O          | Oracle Cloud                               | 500Mbps | O              | O              |
+[Germany](info/#germany)                              | O          | HTTPX's Machine                            | 1Gbps   | O              | O              |
+[Netherlands](info/#netherlands)                      | O          | LL-IX                                      | 1Gbps   | O              | O              |
+[United States Fremont](info/#united-states-fremont)  | O          | [Skywolf Cloud](https://skywolf.cloud/)    | 1Gbps   | O              | O              |
+[China Jiangsu](info/#china-jiangsu)                  | Δ (Manual) | Sunyz's Machine                            | 50Mbps  | O              | X              |
+[China Changsha](info/#china-changsha)                | Δ (Manual) | MQ's Machine                               | 100Mbps | O              | X              |
+[China Beijing](info/#china-beijing)                  | Δ (Manual) | Lama's Machine                             | 40Mbps  | O              | X              |
 
 
 ### Route Propagation Graph for KSKB-Network (AS4242421817)
