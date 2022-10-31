@@ -39,6 +39,16 @@ Wireguard Public Key    | olXrGZKg3kKPdihHNfZ3zwwt+LPFQv9GMxLyA92fQl0=        |
 Looking Glass           | https://hk42.kskb.eu.org/                           |
 Auto Peer               | https://hk42.kskb.eu.org/autopeer/                  |
 
+## Singapore
+
+ Key                    | Value                                               |
+------------------------|-----------------------------------------------------|
+Clearnet Endpoint(IPv4) | 4.sg.kskb.eu.org:(20000 + last 4 digit of your asn) |
+Clearnet Endpoint(IPv6) | Not available                                       |
+Wireguard Public Key    | F6h8b3MOOf2A7qaUipDW5LFRZESjcJ4GL1w3kNF6pgQ=        |
+Looking Glass           | https://sg42.kskb.eu.org/                           |
+Auto Peer               | https://sg42.kskb.eu.org/autopeer/                  |
+
 ## Germany
 
  Key                    | Value                                               |
@@ -48,6 +58,7 @@ Clearnet Endpoint(IPv6) | Not available                                       |
 Wireguard Public Key    | Sxn9qXnzu3gSBQFZ0vCh5t5blUJYgD+iHlCCG2hexg4=        |
 Looking Glass           | https://de42.kskb.eu.org/                           |
 Auto Peer               | https://de42.kskb.eu.org/autopeer/                  |
+
 
 ## Netherlands
 

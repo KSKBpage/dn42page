@@ -75,10 +75,13 @@ Autopeer URL & Lookong Glass                          | Location              |O
 [Taiwan](info/#taiwan)                                | Taiwan                | O          | PC at my home                              | 250mbps | O[^dynamicip]  | O[^dynamicip]  |
 [Japan](info/#japan)                                  | Japan                 | O          | [CNTUG Infra Labs](https://cloudnative.tw/)| 1Gbps   | O              | O              |
 [Hong Kong](info/#hong-kong)                          | Hong Kong             | O          | Licson's Machine                           | 1Gbps   | O              | O              |
-[Germany](info/#germany)                              | Germany               | O          | [Hertz Technology](https://hertz.zone/)    | 1Gbps   | Δ[^limitedport]| O              |
+[Singapore](info/#singapore)                          | Singapore             | O          | Oracle Cloud                               | 500mbps | O              | O              |
+[Germany](info/#germany)                              | Germany               | O          | HTTPX's Machine                            | 1Gbps   | O              | O              |
+[Netherlands](info/#netherlands)                      | Germany               | O          | MQ's Machine                               | 1Gbps   | O              | O              |
 [United States Fremont](info/#united-states-fremont)  | United States Fremont | O          | [Skywolf Cloud](https://skywolf.cloud/)    | 1Gbps   | O              | O              |
 [China Jiangsu](info/#china-jiangsu)                  | China Jiangsu         | Δ (Manual) | Sunyz's Machine                            | 50Mbps  | O              | X              |
-[China Sichuan](info/#china-sichuan)                  | China Sichuan         | Δ (Manual) | [MoeIDC](https://idc.moe/)                 | 500Mbps | O              | X              |
+[China Changsha](info/#china-changsha)                | China Sichuan         | Δ (Manual) | MQ's Machine                               | 500Mbps | O              | X              |
+[China Beijing](info/#china-beijing)                  | China Sichuan         | Δ (Manual) | Lama's Machine                             | 500Mbps | O              | X              |
 
 
 ### Route Propagation Graph for KSKB-Network (AS4242421817)
