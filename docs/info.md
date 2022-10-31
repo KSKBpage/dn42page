@@ -43,11 +43,21 @@ Auto Peer               | https://hk42.kskb.eu.org/autopeer/                  |
 
  Key                    | Value                                               |
 ------------------------|-----------------------------------------------------|
-Clearnet Endpoint(IPv4) | (Not available because it's behind NAT)             |
-Clearnet Endpoint(IPv6) | 6.de.kskb.eu.org:(20000 + last 4 digit of your asn) |
+Clearnet Endpoint(IPv4) | 4.de.kskb.eu.org:(20000 + last 4 digit of your asn) |
+Clearnet Endpoint(IPv6) | Not available                                       |
 Wireguard Public Key    | Sxn9qXnzu3gSBQFZ0vCh5t5blUJYgD+iHlCCG2hexg4=        |
 Looking Glass           | https://de42.kskb.eu.org/                           |
 Auto Peer               | https://de42.kskb.eu.org/autopeer/                  |
+
+## Netherlands
+
+ Key                    | Value                                               |
+------------------------|-----------------------------------------------------|
+Clearnet Endpoint(IPv4) | 4.nl.kskb.eu.org:(20000 + last 4 digit of your asn) |
+Clearnet Endpoint(IPv6) | Not available                                       |
+Wireguard Public Key    | tUjlMmvC5vc9ZuMzTbD9y5H+BGTWIjL6IKrOo2ZL8UI=        |
+Looking Glass           | https://nl42.kskb.eu.org/                           |
+Auto Peer               | https://nl42.kskb.eu.org/autopeer/                  |
 
 ## United States Fremont
 
@@ -68,11 +78,21 @@ Clearnet Endpoint(IPv6) | Not available                                       |
 Wireguard Public Key    | z5pfVI1hxtSyM5wymr9gQkzRuXfRcuYIjklBR5cNqEU=        |
 Looking Glass           | https://cnjs42.kskb.eu.org/                         |
 
-## China Sichuan
+## China Changsha
 
  Key                    | Value                                               |
 ------------------------|-----------------------------------------------------|
 Clearnet Endpoint(IPv4) | (Manual Peer to get the endpoint)                   |
 Clearnet Endpoint(IPv6) | Not available                                       |
-Wireguard Public Key    | CZdOg8FiHKg5loQHtkLv2hOiw95xtp7dDp0Q3qR4hCo=        |
-Looking Glass           | https://cnsc42.kskb.eu.org/                         |
+Wireguard Public Key    | a4jStl59FRRdsk5dgLUdTqZ+jZnvGxjY8NXYA1djpmI=        |
+Looking Glass           | https://cnjs42.kskb.eu.org/                         |
+
+
+## China Beijing
+
+ Key                    | Value                                               |
+------------------------|-----------------------------------------------------|
+Clearnet Endpoint(IPv4) | (Manual Peer to get the endpoint)                   |
+Clearnet Endpoint(IPv6) | Not available                                       |
+Wireguard Public Key    | hX5509FszN+uWcvK/GR3Ec4BKRDqHtshpED/GBOS62U=        |
+Looking Glass           | https://cnbj42.kskb.eu.org/                         |
