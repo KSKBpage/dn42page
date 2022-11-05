@@ -96,7 +96,7 @@ Looking Glass           | https://cnjs42.kskb.eu.org/                         |
 Clearnet Endpoint(IPv4) | (Manual Peer to get the endpoint)                   |
 Clearnet Endpoint(IPv6) | Not available                                       |
 Wireguard Public Key    | a4jStl59FRRdsk5dgLUdTqZ+jZnvGxjY8NXYA1djpmI=        |
-Looking Glass           | https://cnjs42.kskb.eu.org/                         |
+Looking Glass           | https://cncs42.kskb.eu.org/                         |
 
 
 ## China Beijing
