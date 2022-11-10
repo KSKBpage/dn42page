@@ -104,8 +104,8 @@ Autopeer URL & Lookong Glass     | Location                     | Open Peering |
 ---------------------------------|------------------------------|--------------|--------|--------- |-----|-----|
 https://dn42hk.azurewebsites.net |Hong Kong                     | O            | F1     | 2mbps    | Δ   | X   |      
 https://dn42jp.azurewebsites.net |Japan Tokyo                   | O            | F1     | 2mbps    | Δ   | X   |
-https://appsg.azurewebsites.net  |Singapore                     | O            | B1     | 100mbps  | Δ   | X   |
-https://dn42usw.azurewebsites.net|United States Washington      | O            | F1     | 2mbps    | Δ   | X   |
+https://dn42sg.azurewebsites.net  |Singapore                     | O            | F1     | 2mbps  | Δ   | X   |
+https://appusw.azurewebsites.net|United States Washington      | O            | B1     | 2mbps    | Δ   | X   |
 https://dn42ca.azurewebsites.net |Canada Toronto                | O            | F1     | 2mbps    | Δ   | X   |
 https://dn42ch.azurewebsites.net |Switzerland Zürich            | O            | F1     | 2mbps    | Δ   | X   |
 https://dn42nl.azurewebsites.net |Netherlands                   | O            | F1     | 2mbps    | Δ   | X   |       
