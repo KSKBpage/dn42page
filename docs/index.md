@@ -77,9 +77,7 @@ Autopeer URL & Lookong Glass                          |Open Peering| Hosting    
 [Hong Kong](info/#hong-kong)                          | O          | Licson's Machine                           | 1Gbps   | O              | O              |
 [Singapore](info/#singapore)                          | O          | Oracle Cloud                               | 500Mbps | O              | O              |
 [Germany](info/#germany)                              | O          | HTTPX's Machine                            | 1Gbps   | O              | O              |
-[Netherlands](info/#netherlands)                      | O          | LL-IX                                      | 1Gbps   | O              | O              |
 [United States Fremont](info/#united-states-fremont)  | O          | [Skywolf Cloud](https://skywolf.cloud/)    | 1Gbps   | O              | O              |
-[China Jiangsu](info/#china-jiangsu)                  | Δ (Manual) | Sunyz's Machine                            | 50Mbps  | O              | X              |
 [China Changsha](info/#china-changsha)                | Δ (Manual) | MQ's Machine                               | 100Mbps | O              | X              |
 [China Beijing](info/#china-beijing)                  | Δ (Manual) | Lama's Machine                             | 40Mbps  | O              | X              |
 
