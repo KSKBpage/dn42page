@@ -59,6 +59,16 @@ Wireguard Public Key    | Sxn9qXnzu3gSBQFZ0vCh5t5blUJYgD+iHlCCG2hexg4=        |
 Looking Glass           | https://de42.kskb.eu.org/                           |
 Auto Peer               | https://de42.kskb.eu.org/autopeer/                  |
 
+## Netherlands
+
+ Key                    | Value                                               |
+------------------------|-----------------------------------------------------|
+Clearnet Endpoint(IPv4) | 4.nl.kskb.eu.org:(20000 + last 4 digit of your asn) |
+Clearnet Endpoint(IPv6) | Not available                                       |
+Wireguard Public Key    | tUjlMmvC5vc9ZuMzTbD9y5H+BGTWIjL6IKrOo2ZL8UI=        |
+Looking Glass           | https://nl42.kskb.eu.org/                           |
+Auto Peer               | https://nl42.kskb.eu.org/autopeer/                  |
+
 ## United States Fremont
 
  Key                    | Value                                               |

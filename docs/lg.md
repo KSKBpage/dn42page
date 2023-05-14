@@ -8,10 +8,10 @@ Taiwan                       | https://tw42.kskb.eu.org
 Japan                        | https://jp42.kskb.eu.org     
 Hong Kong                    | https://hk42.kskb.eu.org     
 Germany                      | https://de42.kskb.eu.org      
-Germany2                     | https://de242.kskb.eu.org      
+Netherlands                  | https://nl42.kskb.eu.org      
 United States Fremont        | https://usfmt42.kskb.eu.org   
-China Jiangsu                | https://cnjs42.kskb.eu.org   
-China Sichuan                | https://cnsc42.kskb.eu.org   
+China Beijing                | https://cnbj42.kskb.eu.org   
+China Changsha               | https://cncs42.kskb.eu.org   
 
 
 ## Kusakabe-Neo (AS4201271111)
