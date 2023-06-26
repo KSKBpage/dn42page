@@ -1,7 +1,7 @@
 # Peer with Kusakabe Shi
-This page provides the information to get started on peering with the `KSKB-NETWORK` and `Kusakabe-Neo`  network
+This page provides the information to get started on peering with the `KSKB-DN42` and `KSKB-NEONETWORK`  network
 
-I operates 2 networks `KSKB-NETWORK(AS4242421817)` and `Kusakabe-Neo(AS4201271111)`  
+I operates 2 networks `KSKB-DN42(AS4242421817)` and `KSKB-NEONETWORK(AS4201271111)`  
 They are fully isolated except peering with eBGP to help me experiment different things.  
 For example, they use different architecture and different routing policy.  
 I use two ASN for them for batter isolation, welcome to peer with **both** my network!  
@@ -23,37 +23,6 @@ If you’d like to peer with me, you can...
 3. Contact me via email `dn42@kskb.eu.org`
 4. Use AutoPeer service listed below
 
-### Peering Requirements
-To peer with me, you must meet the following requirements:
-
-1. Latency to my node <= 100 ms
-1. You must implement ROA checks
-2. Contact information in the registry must always be up to date and admins must respond when contacted
-
-There are 2 **additional requirement** for `Kusakabe-Neo(AS4201271111)`
-
-1. You must have a public IPv4 endpoint on your side.
-2. You must have at least two peerings already established with other DN42 networks
-
-
-## Symbol
-
-Generally, the symbol means: 
-
-Symbol  | Means             
---------|----------
-O| positive  
-Δ| partially positive  
-X| negative  
-
-In the IP section
-
-Symbol  | Means             
---------|----------
-O| This node have public IP. <br>You can peer with this node even if you are behind NAT.
-Δ| This node doesn't have public IP, it's behind NAT.<br>You have to provide your endpoint
-X| Not accessable
-
 ## BGP support
 Peer with Multiprotocol BGP and Extended next hop over IPv6 link local address is preffered
 
@@ -61,14 +30,24 @@ Peer with Multiprotocol BGP and Extended next hop over IPv6 link local address i
 * Extended next hop: `supported and preferred`
 
 ## KSKB-NETWORK (AS4242421817)
+
 * ASN : `AS4242421817`
 * Routing policy: Cold-potato Routing
 * Architecture: Normal linux distribution.
 * Supported Tunnel Types
-  * Wireguard
-  * OpenVPN
+    * Wireguard
+    * OpenVPN
 * Topology:
-  * ![image](https://user-images.githubusercontent.com/73118488/177179872-593e59b7-1ebb-459b-a6d4-2c448e431cbb.png) 
+    * ![image](https://user-images.githubusercontent.com/73118488/177179872-593e59b7-1ebb-459b-a6d4-2c448e431cbb.png) 
+
+### Peering Requirements
+
+To peer with me, you must meet the following requirements:
+
+1. Latency to my node <= 100 ms
+1. You must implement ROA checks
+2. Contact information in the registry must always be up to date and admins must respond when contacted
+
 
 Autopeer                                              |Open Peering| Hosting                                    |Bandwidth|IPv4            |IPv6            |
 ------------------------------------------------------|------------|--------------------------------------------|---------|----------------|----------------|
@@ -97,6 +76,13 @@ Autopeer                                              |Open Peering| Hosting    
   * ![image](https://user-images.githubusercontent.com/73118488/158076242-0bbfaea6-b71e-4deb-a4d4-e92662ac4541.png)
   * [Etherguard](https://github.com/KusakabeSi/EtherGuard-VPN)
 
+### Peering Requirements
+
+There are 2 **additional requirement** for `Kusakabe-Neo(AS4201271111)`
+
+1. You must have a public IPv4 endpoint on your side.
+2. You must have at least two peerings already established with other DN42 networks
+
 Autopeer                         | Location                     | Open Peering | Plan   |Bandwidth |IPv4 |IPv6 |
 ---------------------------------|------------------------------|--------------|--------|--------- |-----|-----|
 https://dn42hk.azurewebsites.net |Hong Kong                     | O            | F1     | 2mbps    | Δ   | X   |      
@@ -108,6 +94,25 @@ https://dn42ch.azurewebsites.net |Switzerland Zürich            | O            
 https://dn42nl.azurewebsites.net |Netherlands                   | O            | F1     | 2mbps    | Δ   | X   |       
 https://dn42au.azurewebsites.net |Australia Canberra            | O            | F1     | 2mbps    | Δ   | X   |
 https://dn42uae.azurewebsites.net|United Arab Emirates Dubai    | O            | F1     | 2mbps    | Δ   | X   |
+
+
+## Symbol
+
+Generally, the symbol means: 
+
+Symbol  | Means             
+--------|----------
+O| positive  
+Δ| partially positive  
+X| negative  
+
+In the IP section
+
+Symbol  | Means             
+--------|----------
+O| This node have public IP. <br>You can peer with this node even if you are behind NAT.
+Δ| This node doesn't have public IP, it's behind NAT.<br>You have to provide your endpoint
+X| Not accessable
 
 ## Dynamic IP
 
