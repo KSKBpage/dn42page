@@ -1,7 +1,7 @@
 # Peer with Kusakabe Shi
-This page provides the information to get started on peering with the `KSKB-DN42` and `KSKB-NEONETWORK`  network
+This page provides the information to get started on peering with the `KSKB-DN42` and `KSKB-NEO`  network
 
-I operates 2 networks `KSKB-DN42(AS4242421817)` and `KSKB-NEONETWORK(AS4201271111)`  
+I operates 2 networks `KSKB-DN42(AS4242421817)` and `KSKB-NEO(AS4201271111)`  
 They are fully isolated except peering with eBGP to help me experiment different things.  
 For example, they use different architecture and different routing policy.  
 I use two ASN for them for batter isolation, welcome to peer with **both** my network!  
@@ -29,7 +29,7 @@ Peer with Multiprotocol BGP and Extended next hop over IPv6 link local address i
 * Multiprotocol BGP: `supported and preferred`
 * Extended next hop: `supported and preferred`
 
-## KSKB-NETWORK (AS4242421817)
+## KSKB-DN42 (AS4242421817)
 
 * ASN : `AS4242421817`
 * Routing policy: Cold-potato Routing
@@ -63,7 +63,7 @@ Autopeer                                              |Open Peering| Hosting    
 [China Beijing](info/#china-beijing)                  | Δ (Manual) | Lama's Machine                             | 40Mbps  | O              | X              |
 
 
-## Kusakabe-Neo (AS4201271111)
+## KSKB-NEO (AS4201271111)
 * ASN : `AS4201271111`
 * Routing policy: Hot-potato Routing
 * ISP: Azure App Service
