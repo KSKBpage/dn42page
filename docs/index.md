@@ -70,7 +70,7 @@ Peer with Multiprotocol BGP and Extended next hop over IPv6 link local address i
 * Topology:
   * ![image](https://user-images.githubusercontent.com/73118488/177179872-593e59b7-1ebb-459b-a6d4-2c448e431cbb.png) 
 
-Autopeer URL & Lookong Glass                          |Open Peering| Hosting                                    |Bandwidth|IPv4            |IPv6            |
+Autopeer                                              |Open Peering| Hosting                                    |Bandwidth|IPv4            |IPv6            |
 ------------------------------------------------------|------------|--------------------------------------------|---------|----------------|----------------|
 [Taiwan](info/#taiwan)                                | O          | PC at my home                              | 250Mbps | O[^dynamicip]  | O[^dynamicip]  |
 [Japan](info/#japan)                                  | O          | [CNTUG Infra Labs](https://cloudnative.tw/)| 1Gbps   | O              | O              |
@@ -96,20 +96,17 @@ Autopeer URL & Lookong Glass                          |Open Peering| Hosting    
   * ![image](https://user-images.githubusercontent.com/73118488/158076242-0bbfaea6-b71e-4deb-a4d4-e92662ac4541.png)
   * [Etherguard](https://github.com/KusakabeSi/EtherGuard-VPN)
 
-Autopeer URL & Lookong Glass     | Location                     | Open Peering | Plan   |Bandwidth |IPv4 |IPv6 |
+Autopeer                         | Location                     | Open Peering | Plan   |Bandwidth |IPv4 |IPv6 |
 ---------------------------------|------------------------------|--------------|--------|--------- |-----|-----|
 https://dn42hk.azurewebsites.net |Hong Kong                     | O            | F1     | 2mbps    | Δ   | X   |      
 https://dn42jp.azurewebsites.net |Japan Tokyo                   | O            | F1     | 2mbps    | Δ   | X   |
-https://dn42sg.azurewebsites.net  |Singapore                     | O            | F1     | 2mbps  | Δ   | X   |
-https://appusw.azurewebsites.net|United States Washington      | O            | B1     | 2mbps    | Δ   | X   |
+https://dn42sg.azurewebsites.net |Singapore                     | O            | F1     | 2mbps    | Δ   | X   |
+https://appusw.azurewebsites.net |United States Washington      | O            | B1     | 2mbps    | Δ   | X   |
 https://dn42ca.azurewebsites.net |Canada Toronto                | O            | F1     | 2mbps    | Δ   | X   |
 https://dn42ch.azurewebsites.net |Switzerland Zürich            | O            | F1     | 2mbps    | Δ   | X   |
 https://dn42nl.azurewebsites.net |Netherlands                   | O            | F1     | 2mbps    | Δ   | X   |       
 https://dn42au.azurewebsites.net |Australia Canberra            | O            | F1     | 2mbps    | Δ   | X   |
 https://dn42uae.azurewebsites.net|United Arab Emirates Dubai    | O            | F1     | 2mbps    | Δ   | X   |
-
-### Route Propagation Graph for Kusakabe-Neo (AS4201271111)
-[![RPG1111](https://dn42.tools/pathimg/rt-fd10:127:e00f:aca::_64)](https://dn42.tools/as/4201271111#connectivity)
 
 ## Dynamic IP
 
