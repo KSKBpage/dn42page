@@ -83,9 +83,6 @@ Autopeer URL & Lookong Glass                          |Open Peering| Hosting    
 [China Beijing](info/#china-beijing)                  | Δ (Manual) | Lama's Machine                             | 40Mbps  | O              | X              |
 
 
-### Route Propagation Graph for KSKB-Network (AS4242421817)
-[![RPG1817](https://dn42.tools/pathimg/rt-fd28:cb8f:4c92::_48)](https://dn42.tools/as/4242421817#connectivity)
-
 ## Kusakabe-Neo (AS4201271111)
 * ASN : `AS4201271111`
 * Routing policy: Hot-potato Routing
