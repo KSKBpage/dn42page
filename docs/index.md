@@ -79,6 +79,7 @@ Autopeer                                              |Open Peering| Hosting    
 [Germany](info/#germany)                              | O          | HTTPX's Machine                            | 1Gbps   | O              | O              |
 [Netherlands](info/#netherlands)                      | O          | Zero IX                                    | 1Gbps   | O              | O              |
 [United States Fremont](info/#united-states-fremont)  | O          | [Skywolf Cloud](https://skywolf.cloud/)    | 1Gbps   | O              | O              |
+[United States Seattle](info/#united-states-seattle)  | O          | [MOEIX](https://moeix.top/)                | 250Mbps | O              | O              |
 [China Changsha](info/#china-changsha)                | Δ (Manual) | MQ's Machine                               | 100Mbps | O              | X              |
 [China Beijing](info/#china-beijing)                  | Δ (Manual) | Lama's Machine                             | 40Mbps  | O              | X              |
 

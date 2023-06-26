@@ -79,6 +79,16 @@ Wireguard Public Key    | dZzVdXbQPnWPpHk8QfW/p+MfGzAkMBuWpxEIXzQCggY=        |
 Looking Glass           | https://usfmt42.kskb.eu.org/                        |
 Auto Peer               | https://usfmt42.kskb.eu.org/autopeer/               |
 
+## United States Seattle
+
+ Key                    | Value                                               |
+------------------------|-----------------------------------------------------|
+Clearnet Endpoint(IPv4) | 4.ussea.kskb.eu.org:(15000~15060)                   |
+Clearnet Endpoint(IPv6) | Not available                                       |
+Wireguard Public Key    | WcbXsXIVIIXjEDKFrCnPH8lG9NaFDKdkvCA7Gl6j4UA=        |
+Looking Glass           | https://ussea42.kskb.eu.org/                        |
+Auto Peer               | https://ussea42.kskb.eu.org/autopeer/               |
+
 ## China Changsha
 
  Key                    | Value                                               |
