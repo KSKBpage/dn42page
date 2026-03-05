@@ -51,16 +51,13 @@ To peer with me, you must meet the following requirements:
 
 Autopeer                                              |Open Peering| Hosting                                    |Bandwidth|IPv4            |IPv6            |
 ------------------------------------------------------|------------|--------------------------------------------|---------|----------------|----------------|
-[Taiwan](info/#taiwan)                                | O          | PC at my home                              | 250Mbps | O[^dynamicip]  | O[^dynamicip]  |
-[Japan](info/#japan)                                  | O          | [CNTUG Infra Labs](https://cloudnative.tw/)| 1Gbps   | O              | O              |
-[Hong Kong](info/#hong-kong)                          | O          | Licson's Machine                           | 1Gbps   | O              | O              |
-[Singapore](info/#singapore)                          | O          | Oracle Cloud                               | 500Mbps | O              | O              |
-[Germany](info/#germany)                              | O          | HTTPX's Machine                            | 1Gbps   | O              | O              |
-[Netherlands](info/#netherlands)                      | O          | Zero IX                                    | 1Gbps   | O              | O              |
-[United States Fremont](info/#united-states-fremont)  | O          | [Skywolf Cloud](https://skywolf.cloud/)    | 1Gbps   | O              | O              |
-[United States Seattle](info/#united-states-seattle)  | O          | [MOEIX](https://moeix.top/)                | 250Mbps | O              | O              |
-[China Changsha](info/#china-changsha)                | Δ (Manual) | MQ's Machine                               | 100Mbps | O              | X              |
-[China Beijing](info/#china-beijing)                  | Δ (Manual) | Lama's Machine                             | 40Mbps  | O              | X              |
+[Taiwan](info.md/#taiwan)                                | O          | PC at my home                              | 500Mbps | O[^dynamicip]  | O[^dynamicip]  |
+[Japan](info.md/#japan)                                  | O          | [CNTUG Infra Labs](https://cloudnative.tw/)| 1Gbps   | O              | O              |
+[Hong Kong](info.md/#hong-kong)                          | O          | [Haruka Cloud](http://haruka.cloud/)       | 1Gbps   | O              | O              |
+[United States Fremont](info.md/#united-states-fremont)  | O          | [Skywolf Cloud](https://skywolf.cloud/)    | 1Gbps   | O              | O              |
+[United Kingdom](info.md/#united-kingdom)                | O          | [Haruka Cloud](http://haruka.cloud/)       | 1Gbps   | O              | O              |
+[China Changsha](info.md/#china-changsha)                | Δ (Manual) | MQ's Machine                               | 100Mbps | O              | X              |
+[China Beijing](info.md/#china-beijing)                  | Δ (Manual) | Lama's Machine                             | 40Mbps  | O              | X              |
 
 
 ## KSKB-NEO (AS4201271111)

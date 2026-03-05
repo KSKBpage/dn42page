@@ -39,36 +39,6 @@ Wireguard Public Key    | olXrGZKg3kKPdihHNfZ3zwwt+LPFQv9GMxLyA92fQl0=        |
 Looking Glass           | https://hk42.kskb.eu.org/                           |
 Auto Peer               | https://hk42.kskb.eu.org/autopeer/                  |
 
-## Singapore
-
- Key                    | Value                                               |
-------------------------|-----------------------------------------------------|
-Clearnet Endpoint(IPv4) | 4.sg.kskb.eu.org:(20000 + last 4 digit of your asn) |
-Clearnet Endpoint(IPv6) | Not available                                       |
-Wireguard Public Key    | F6h8b3MOOf2A7qaUipDW5LFRZESjcJ4GL1w3kNF6pgQ=        |
-Looking Glass           | https://sg42.kskb.eu.org/                           |
-Auto Peer               | https://sg42.kskb.eu.org/autopeer/                  |
-
-## Germany
-
- Key                    | Value                                               |
-------------------------|-----------------------------------------------------|
-Clearnet Endpoint(IPv4) | 4.de.kskb.eu.org:(20000 + last 4 digit of your asn) |
-Clearnet Endpoint(IPv6) | Not available                                       |
-Wireguard Public Key    | Sxn9qXnzu3gSBQFZ0vCh5t5blUJYgD+iHlCCG2hexg4=        |
-Looking Glass           | https://de42.kskb.eu.org/                           |
-Auto Peer               | https://de42.kskb.eu.org/autopeer/                  |
-
-## Netherlands
-
- Key                    | Value                                               |
-------------------------|-----------------------------------------------------|
-Clearnet Endpoint(IPv4) | 4.nl.kskb.eu.org:(20000 + last 4 digit of your asn) |
-Clearnet Endpoint(IPv6) | Not available                                       |
-Wireguard Public Key    | tUjlMmvC5vc9ZuMzTbD9y5H+BGTWIjL6IKrOo2ZL8UI=        |
-Looking Glass           | https://nl42.kskb.eu.org/                           |
-Auto Peer               | https://nl42.kskb.eu.org/autopeer/                  |
-
 ## United States Fremont
 
  Key                    | Value                                               |
@@ -79,15 +49,15 @@ Wireguard Public Key    | dZzVdXbQPnWPpHk8QfW/p+MfGzAkMBuWpxEIXzQCggY=        |
 Looking Glass           | https://usfmt42.kskb.eu.org/                        |
 Auto Peer               | https://usfmt42.kskb.eu.org/autopeer/               |
 
-## United States Seattle
+## United Kingdom London
 
  Key                    | Value                                               |
 ------------------------|-----------------------------------------------------|
-Clearnet Endpoint(IPv4) | 4.ussea.kskb.eu.org:(15000~15060)                   |
-Clearnet Endpoint(IPv6) | Not available                                       |
-Wireguard Public Key    | WcbXsXIVIIXjEDKFrCnPH8lG9NaFDKdkvCA7Gl6j4UA=        |
-Looking Glass           | https://ussea42.kskb.eu.org/                        |
-Auto Peer               | https://ussea42.kskb.eu.org/autopeer/               |
+Clearnet Endpoint(IPv4) | 4.uk.kskb.eu.org:(20000 + last 4 digit of your asn) |
+Clearnet Endpoint(IPv6) | 6.uk.kskb.eu.org:(20000 + last 4 digit of your asn) |
+Wireguard Public Key    | uK79TsxgrREnaOGdBQECzylWEutUEAvmfQtDWaAhIUs=        |
+Looking Glass           | https://uk42.kskb.eu.org/                        |
+Auto Peer               | https://uk42.kskb.eu.org/autopeer/               |
 
 ## China Changsha
 
